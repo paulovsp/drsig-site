@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta name="google-site-verification" content="xSQWEcu3q_tfQWp92FyIDDYfRZijRpsCoeQlZxOi7aM" />
+<meta name="google-site-verification" content="xSQWEcu3q_tfQWp92FyIDDYfRZijRpsCoeQlZxOi7aM" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dr.Sig — o consultório e a escuta, no mesmo lugar</title>
@@ -13,400 +13,425 @@
 <meta name="theme-color" content="#3D5A80" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%233D5A80'/><text y='72' x='50' text-anchor='middle' font-size='58' font-family='Georgia,serif' fill='white'>ψ</text></svg>" />
 <style>
-  :root {
-    --azul: #3D5A80;
-    --azul-escuro: #2C4460;
-    --ambar: #F09B4A;
-    --tinta: #1A1A2E;
-    --corpo: #43434f;
-    --suave: #6B6860;
-    --fundo: #F5F7FA;
-    --linha: #E2E6EC;
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-    margin: 0; color: var(--corpo); background: #fff; line-height: 1.65;
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
-  .estreito { max-width: 760px; }
+:root {
+--azul: #3D5A80;
+--azul-escuro: #2C4460;
+--ambar: #F09B4A;
+--tinta: #1A1A2E;
+--corpo: #43434f;
+--suave: #6B6860;
+--fundo: #F5F7FA;
+--linha: #E2E6EC;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+margin: 0; color: var(--corpo); background: #fff; line-height: 1.65;
+-webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+.estreito { max-width: 760px; }
 
-  /* ── Cabeçalho ── */
-  header {
-    position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.88);
-    backdrop-filter: blur(10px); border-bottom: 1px solid var(--linha);
-  }
-  .barra { display: flex; align-items: center; justify-content: space-between; height: 66px; }
-  .marca { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--tinta); font-size: 18px; letter-spacing: -.2px; text-decoration: none; }
-  .marca .glifo {
-    width: 32px; height: 32px; border-radius: 9px; background: var(--azul); color: #fff;
-    display: grid; place-items: center; font-family: Georgia, serif; font-size: 19px; padding-bottom: 2px;
-  }
-  nav a { color: var(--corpo); text-decoration: none; font-size: 14.5px; margin-left: 26px; }
-  nav a:hover { color: var(--azul); }
-  @media (max-width: 700px) { nav { display: none; } }
+/* ── Cabeçalho ── */
+header {
+position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.88);
+backdrop-filter: blur(10px); border-bottom: 1px solid var(--linha);
+}
+.barra { display: flex; align-items: center; justify-content: space-between; height: 66px; }
+.marca { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--tinta); font-size: 18px; letter-spacing: -.2px; text-decoration: none; }
+.marca .glifo {
+width: 32px; height: 32px; border-radius: 9px; background: var(--azul); color: #fff;
+display: grid; place-items: center; font-family: Georgia, serif; font-size: 19px; padding-bottom: 2px;
+}
+nav a { color: var(--corpo); text-decoration: none; font-size: 14.5px; margin-left: 26px; }
+nav a:hover { color: var(--azul); }
+@media (max-width: 700px) { nav { display: none; } }
 
-  /* ── Botões ── */
-  .btn {
-    display: inline-block; background: var(--azul); color: #fff; text-decoration: none;
-    padding: 13px 26px; border-radius: 10px; font-weight: 600; font-size: 15px;
-    border: none; cursor: pointer; transition: background .15s ease, transform .15s ease;
-  }
-  .btn:hover { background: var(--azul-escuro); transform: translateY(-1px); }
-  .btn.secundario { background: #fff; color: var(--azul); border: 1.5px solid var(--linha); }
-  .btn.secundario:hover { border-color: var(--azul); background: #fff; }
+/* ── Botões ── */
+.btn {
+display: inline-block; background: var(--azul); color: #fff; text-decoration: none;
+padding: 13px 26px; border-radius: 10px; font-weight: 600; font-size: 15px;
+border: none; cursor: pointer; transition: background .15s ease, transform .15s ease;
+}
+.btn:hover { background: var(--azul-escuro); transform: translateY(-1px); }
+.btn.secundario { background: #fff; color: var(--azul); border: 1.5px solid var(--linha); }
+.btn.secundario:hover { border-color: var(--azul); background: #fff; }
 
-  /* ── Hero ── */
-  .hero { padding: 84px 0 72px; background: linear-gradient(170deg, #F5F7FA 0%, #fff 78%); }
-  .hero h1 {
-    font-size: clamp(32px, 5.2vw, 52px); line-height: 1.12; color: var(--tinta);
-    margin: 0 0 20px; letter-spacing: -1.1px; font-weight: 700; max-width: 15ch;
-  }
-  .hero .sub { font-size: clamp(17px, 2.1vw, 20px); max-width: 56ch; margin: 0 0 34px; color: var(--corpo); }
-  .acoes { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
-  .nota-acao { font-size: 13.5px; color: var(--suave); margin-top: 16px; }
+/* ── Hero ── */
+.hero { padding: 84px 0 72px; background: linear-gradient(170deg, #F5F7FA 0%, #fff 78%); }
+.hero h1 {
+font-size: clamp(32px, 5.2vw, 52px); line-height: 1.12; color: var(--tinta);
+margin: 0 0 20px; letter-spacing: -1.1px; font-weight: 700; max-width: 15ch;
+}
+.hero .sub { font-size: clamp(17px, 2.1vw, 20px); max-width: 56ch; margin: 0 0 34px; color: var(--corpo); }
+.acoes { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.nota-acao { font-size: 13.5px; color: var(--suave); margin-top: 16px; }
 
-  /* ── Seções ── */
-  section { padding: 76px 0; }
-  section.cinza { background: var(--fundo); }
-  h2 {
-    font-size: clamp(24px, 3.4vw, 33px); color: var(--tinta); letter-spacing: -.6px;
-    margin: 0 0 14px; font-weight: 700; line-height: 1.2;
-  }
-  .intro-secao { font-size: 17px; max-width: 60ch; margin: 0 0 42px; }
+/* ── Seções ── */
+section { padding: 76px 0; }
+section.cinza { background: var(--fundo); }
+h2 {
+font-size: clamp(24px, 3.4vw, 33px); color: var(--tinta); letter-spacing: -.6px;
+margin: 0 0 14px; font-weight: 700; line-height: 1.2;
+}
+.intro-secao { font-size: 17px; max-width: 60ch; margin: 0 0 42px; }
 
-  /* ── Grade de recursos ── */
-  .grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); gap: 22px; }
-  .cartao {
-    background: #fff; border: 1px solid var(--linha); border-radius: 14px; padding: 26px 24px;
-    transition: box-shadow .18s ease, transform .18s ease;
-  }
-  .cartao:hover { box-shadow: 0 6px 22px rgba(26,26,46,.07); transform: translateY(-2px); }
-  .cartao h3 { margin: 0 0 8px; font-size: 16.5px; color: var(--tinta); font-weight: 650; }
-  .cartao p { margin: 0; font-size: 14.5px; }
-  .icone {
-    width: 38px; height: 38px; border-radius: 10px; background: #EDF1F7; color: var(--azul);
-    display: grid; place-items: center; margin-bottom: 15px; font-size: 19px;
-  }
+/* ── Grade de recursos ── */
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); gap: 22px; }
+.cartao {
+background: #fff; border: 1px solid var(--linha); border-radius: 14px; padding: 26px 24px;
+transition: box-shadow .18s ease, transform .18s ease;
+}
+.cartao:hover { box-shadow: 0 6px 22px rgba(26,26,46,.07); transform: translateY(-2px); }
+.cartao h3 { margin: 0 0 8px; font-size: 16.5px; color: var(--tinta); font-weight: 650; }
+.cartao p { margin: 0; font-size: 14.5px; }
+.icone {
+width: 38px; height: 38px; border-radius: 10px; background: #EDF1F7; color: var(--azul);
+display: grid; place-items: center; margin-bottom: 15px; font-size: 19px;
+}
 
-  /* ── Destaque do motor ── */
-  .motor { background: var(--tinta); color: #D6D9E2; }
-  .motor h2 { color: #fff; }
-  .motor .intro-secao { color: #AFB5C4; }
-  .motor .passos { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 26px; margin-top: 12px; }
-  .passo .num {
-    font-family: Georgia, serif; font-size: 26px; color: var(--ambar); display: block; margin-bottom: 8px;
-  }
-  .passo h3 { color: #fff; font-size: 16px; margin: 0 0 6px; font-weight: 650; }
-  .passo p { font-size: 14.5px; margin: 0; color: #AFB5C4; }
+/* ── Destaque do motor ── */
+.motor { background: var(--tinta); color: #D6D9E2; }
+.motor h2 { color: #fff; }
+.motor .intro-secao { color: #AFB5C4; }
+.motor .passos { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 26px; margin-top: 12px; }
+.passo .num {
+font-family: Georgia, serif; font-size: 26px; color: var(--ambar); display: block; margin-bottom: 8px;
+}
+.passo h3 { color: #fff; font-size: 16px; margin: 0 0 6px; font-weight: 650; }
+.passo p { font-size: 14.5px; margin: 0; color: #AFB5C4; }
 
-  /* ── Blocos de confiança ── */
-  .lista-limpa { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
-  .lista-limpa li { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
-  .marca-item { color: var(--azul); flex-shrink: 0; font-weight: 700; }
-  .marca-nao { color: var(--ambar); }
+/* ── Blocos de confiança ── */
+.lista-limpa { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.lista-limpa li { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
+.marca-item { color: var(--azul); flex-shrink: 0; font-weight: 700; }
+.marca-nao { color: var(--ambar); }
 
-  .aviso {
-    border-left: 3px solid var(--ambar); background: #FFF8F1; padding: 18px 22px;
-    border-radius: 0 10px 10px 0; margin-top: 30px; font-size: 14.5px;
-  }
+.aviso {
+border-left: 3px solid var(--ambar); background: #FFF8F1; padding: 18px 22px;
+border-radius: 0 10px 10px 0; margin-top: 30px; font-size: 14.5px;
+}
 
-  /* ── FAQ ── */
-  details {
-    border-bottom: 1px solid var(--linha); padding: 18px 0;
-  }
-  details summary {
-    cursor: pointer; font-weight: 600; color: var(--tinta); font-size: 16px; list-style: none;
-    display: flex; justify-content: space-between; align-items: center; gap: 16px;
-  }
-  details summary::-webkit-details-marker { display: none; }
-  details summary::after { content: "+"; color: var(--azul); font-size: 21px; font-weight: 400; flex-shrink: 0; }
-  details[open] summary::after { content: "−"; }
-  details p { margin: 12px 0 0; font-size: 15px; }
+/* ── FAQ ── */
+details {
+border-bottom: 1px solid var(--linha); padding: 18px 0;
+}
+details summary {
+cursor: pointer; font-weight: 600; color: var(--tinta); font-size: 16px; list-style: none;
+display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after { content: "+"; color: var(--azul); font-size: 21px; font-weight: 400; flex-shrink: 0; }
+details[open] summary::after { content: "−"; }
+details p { margin: 12px 0 0; font-size: 15px; }
 
-  /* ── Formulário ── */
-  .formulario { display: flex; gap: 10px; flex-wrap: wrap; max-width: 480px; margin-top: 26px; }
-  .formulario input {
-    flex: 1 1 240px; padding: 13px 15px; border: 1.5px solid var(--linha); border-radius: 10px;
-    font-size: 15px; font-family: inherit; color: var(--tinta); background: #fff;
-  }
-  .formulario input:focus { outline: none; border-color: var(--azul); }
+/* ── Formulário ── */
+.formulario { display: flex; gap: 10px; flex-wrap: wrap; max-width: 480px; margin-top: 26px; }
+.formulario input {
+flex: 1 1 240px; padding: 13px 15px; border: 1.5px solid var(--linha); border-radius: 10px;
+font-size: 15px; font-family: inherit; color: var(--tinta); background: #fff;
+}
+.formulario input:focus { outline: none; border-color: var(--azul); }
 
-  /* ── Planos ── */
-  .planos { display: grid; grid-template-columns: repeat(auto-fit, minmax(258px, 1fr)); gap: 20px; align-items: start; }
-  .plano {
-    background: #fff; border: 1px solid var(--linha); border-radius: 14px; padding: 28px 24px;
-    display: flex; flex-direction: column; gap: 12px; position: relative;
-  }
-  .plano.destacado { border: 2px solid var(--azul); box-shadow: 0 8px 26px rgba(61,90,128,.13); }
-  .selo {
-    position: absolute; top: -11px; left: 24px; background: var(--azul); color: #fff;
-    font-size: 11.5px; font-weight: 600; padding: 3px 11px; border-radius: 20px;
-    text-transform: uppercase; letter-spacing: .4px;
-  }
-  .plano-nome { font-size: 14px; font-weight: 650; color: var(--suave); text-transform: uppercase; letter-spacing: .6px; }
-  .plano-valor { font-size: 35px; font-weight: 700; color: var(--tinta); letter-spacing: -1px; line-height: 1; }
-  .plano-valor span { font-size: 15px; font-weight: 400; color: var(--suave); letter-spacing: 0; }
-  .plano-obs { font-size: 13.5px; color: var(--suave); margin-top: -4px; }
-  .plano-itens { list-style: none; padding: 0; margin: 6px 0 8px; display: grid; gap: 8px; flex: 1; }
-  .plano-itens li { font-size: 14.5px; padding-left: 20px; position: relative; }
-  .plano-itens li::before { content: "✓"; position: absolute; left: 0; color: var(--azul); font-weight: 700; }
+/* ── Planos ── */
+.planos { display: grid; grid-template-columns: repeat(auto-fit, minmax(258px, 1fr)); gap: 20px; align-items: start; }
+.plano {
+background: #fff; border: 1px solid var(--linha); border-radius: 14px; padding: 28px 24px;
+display: flex; flex-direction: column; gap: 12px; position: relative;
+}
+.plano.destacado { border: 2px solid var(--azul); box-shadow: 0 8px 26px rgba(61,90,128,.13); }
+.selo {
+position: absolute; top: -11px; left: 24px; background: var(--azul); color: #fff;
+font-size: 11.5px; font-weight: 600; padding: 3px 11px; border-radius: 20px;
+text-transform: uppercase; letter-spacing: .4px;
+}
+.plano-nome { font-size: 14px; font-weight: 650; color: var(--suave); text-transform: uppercase; letter-spacing: .6px; }
+.plano-valor { font-size: 35px; font-weight: 700; color: var(--tinta); letter-spacing: -1px; line-height: 1; }
+.plano-valor span { font-size: 15px; font-weight: 400; color: var(--suave); letter-spacing: 0; }
+.plano-obs { font-size: 13.5px; color: var(--suave); margin-top: -4px; }
+.plano-itens { list-style: none; padding: 0; margin: 6px 0 8px; display: grid; gap: 8px; flex: 1; }
+.plano-itens li { font-size: 14.5px; padding-left: 20px; position: relative; }
+.plano-itens li::before { content: "✓"; position: absolute; left: 0; color: var(--azul); font-weight: 700; }
 
-  /* ── Rodapé ── */
-  footer { background: var(--tinta); color: #9AA1B1; padding: 52px 0 40px; font-size: 14px; }
-  footer a { color: #C9CFDB; text-decoration: none; }
-  footer a:hover { color: #fff; text-decoration: underline; }
-  .rodape-topo { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; margin-bottom: 34px; }
-  .rodape-links { display: flex; gap: 24px; flex-wrap: wrap; }
-  .rodape-fim { border-top: 1px solid #2E2E44; padding-top: 22px; font-size: 13px; color: #767D8E; }
+/* ── Rodapé ── */
+footer { background: var(--tinta); color: #9AA1B1; padding: 52px 0 40px; font-size: 14px; }
+footer a { color: #C9CFDB; text-decoration: none; }
+footer a:hover { color: #fff; text-decoration: underline; }
+.rodape-topo { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; margin-bottom: 34px; }
+.rodape-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.rodape-fim { border-top: 1px solid #2E2E44; padding-top: 22px; font-size: 13px; color: #767D8E; }
 </style>
 </head>
 <body>
 
 <header>
-  <div class="wrap barra">
-    <a href="#" class="marca"><span class="glifo">ψ</span> Dr.Sig</a>
-    <nav>
-      <a href="#recursos">Recursos</a>
-      <a href="#leitura">A memória</a>
-      <a href="#privacidade">Privacidade</a>
-      <a href="#duvidas">Dúvidas</a>
-      <a href="#acesso">Plano</a>
-    </nav>
-  </div>
+<div class="wrap barra">
+<a href="#" class="marca"><span class="glifo">ψ</span> Dr.Sig</a>
+<nav>
+<a href="#recursos">Recursos</a>
+<a href="#leitura">A memória</a>
+<a href="#privacidade">Privacidade</a>
+<a href="#duvidas">Dúvidas</a>
+<a href="#acesso">Plano</a>
+</nav>
+</div>
 </header>
 
 <div class="hero">
-  <div class="wrap">
-    <h1>O consultório e a escuta, no mesmo lugar.</h1>
-    <p class="sub">
-      Dr.Sig reúne agenda, registros de sessão, cobrança e recibos num aplicativo só — e acrescenta
-      o que nenhuma agenda dá: tudo o que você escreveu, pesquisável em português.
-    </p>
-    <div class="acoes">
-      <a href="#acesso" class="btn">Ver o plano</a>
-      <a href="#leitura" class="btn secundario">Ver como funciona</a>
-    </div>
-    <p class="nota-acao">Para psicoterapeutas. Disponível para Android — em breve também no iPhone.</p>
-  </div>
+<div class="wrap">
+<h1>O consultório e a escuta, no mesmo lugar.</h1>
+<p class="sub">
+Dr.Sig reúne agenda, registros de sessão, cobrança e recibos num aplicativo só — e acrescenta
+o que nenhuma agenda dá: tudo o que você escreveu, pesquisável em português.
+</p>
+<div class="acoes">
+<a href="#acesso" class="btn">Ver o plano</a>
+<a href="#leitura" class="btn secundario">Ver como funciona</a>
+</div>
+<p class="nota-acao">Para psicoterapeutas. Disponível para Android — em breve também no iPhone.</p>
+</div>
 </div>
 
 <section id="recursos">
-  <div class="wrap">
-    <h2>Tudo que o consultório exige, sem trocar de aplicativo</h2>
-    <p class="intro-secao">
-      A prática clínica autônoma se espalha por caderno, planilha, agenda do celular e conversa com
-      o contador. O Dr.Sig junta isso.
-    </p>
-    <div class="grade">
-      <div class="cartao">
-        <div class="icone">✎</div>
-        <h3>Sessões e registros</h3>
-        <p>
-          Anote a sessão em texto ou grave o áudio e deixe a transcrição pronta para você trabalhar
-          em cima. Registros e estudos de caso ficam junto do analisante a que pertencem.
-        </p>
-      </div>
-      <div class="cartao">
-        <div class="icone">◷</div>
-        <h3>Agenda e disponibilidade</h3>
-        <p>
-          Horários fixos, encaixes, faltas e remarcações. Você define sua disponibilidade uma vez e
-          a agenda se organiza em torno dela.
-        </p>
-      </div>
-      <div class="cartao">
-        <div class="icone">◈</div>
-        <h3>Financeiro por analisante</h3>
-        <p>
-          Valor da sessão, dia de pagamento, o que está em aberto e há quanto tempo — com aviso
-          quando um pagamento atrasa, para você não descobrir três meses depois.
-        </p>
-      </div>
-      <div class="cartao">
-        <div class="icone">▤</div>
-        <h3>Recibos e contador</h3>
-        <p>
-          Recibo de prestação de serviços em PDF, com sua assinatura, enviado por e-mail ao
-          analisante e ao seu contador. Por sessão, por semana ou pelo mês fechado.
-        </p>
-      </div>
-      <div class="cartao">
-        <div class="icone">⌕</div>
-        <h3>Busca no histórico</h3>
-        <p>
-          Pergunte em português — <em>"quando ela começou a falar do pai?"</em> — e o app procura na
-          história inteira daquele analisante, sessões e registros.
-        </p>
-      </div>
-      <div class="cartao">
-        <div class="icone">◐</div>
-        <h3>Autorização do analisante</h3>
-        <p>
-          Gravar uma sessão depende de autorização dele, pedida por e-mail e registrada pelo app.
-          Sem confirmação, não grava.
-        </p>
-      </div>
-    </div>
-  </div>
+<div class="wrap">
+<h2>Tudo que o consultório exige, sem trocar de aplicativo</h2>
+<p class="intro-secao">
+A prática clínica autônoma se espalha por caderno, planilha, agenda do celular e conversa com
+o contador. O Dr.Sig junta isso.
+</p>
+<div class="grade">
+<div class="cartao">
+<div class="icone">✎</div>
+<h3>Sessões e registros</h3>
+<p>
+Anote a sessão em texto ou grave o áudio e deixe a transcrição pronta para você trabalhar
+em cima. Registros e estudos de caso ficam junto do analisante a que pertencem.
+</p>
+</div>
+<div class="cartao">
+<div class="icone">◷</div>
+<h3>Agenda e disponibilidade</h3>
+<p>
+Horários fixos, encaixes, faltas e remarcações. Você define sua disponibilidade uma vez e
+a agenda se organiza em torno dela.
+</p>
+</div>
+<div class="cartao">
+<div class="icone">◈</div>
+<h3>Financeiro por analisante</h3>
+<p>
+Valor da sessão, dia de pagamento, o que está em aberto e há quanto tempo — com aviso
+quando um pagamento atrasa, para você não descobrir três meses depois.
+</p>
+</div>
+<div class="cartao">
+<div class="icone">▤</div>
+<h3>Recibos e contador</h3>
+<p>
+Recibo de prestação de serviços em PDF, com sua assinatura, enviado por e-mail ao
+analisante e ao seu contador. Por sessão, por semana ou pelo mês fechado.
+</p>
+</div>
+<div class="cartao">
+<div class="icone">⌕</div>
+<h3>Busca no histórico</h3>
+<p>
+Pergunte em português — <em>"quando ela começou a falar do pai?"</em> — e o app procura na
+história inteira daquele analisante, sessões e registros.
+</p>
+</div>
+<div class="cartao">
+<div class="icone">◐</div>
+<h3>Autorização do analisante</h3>
+<p>
+Gravar uma sessão depende de autorização dele, pedida por e-mail e registrada pelo app.
+Sem confirmação, não grava.
+</p>
+</div>
+</div>
+</div>
 </section>
 
 <section class="motor" id="leitura">
-  <div class="wrap">
-    <h2>A memória do tratamento, pesquisável</h2>
-    <p class="intro-secao">
-      Duzentas sessões cabem numa pasta, mas não cabem na cabeça. Você lembra que ela falou do pai
-      naquele inverno — não lembra quando, nem com que palavras. O Dr.Sig guarda o que você escreve
-      e devolve quando você precisa.
-    </p>
-    <div class="passos">
-      <div class="passo">
-        <span class="num">1</span>
-        <h3>Você escreve como sempre escreveu</h3>
-        <p>Texto corrido ou áudio transcrito. Nada de formulário, campo obrigatório ou categoria a escolher.</p>
-      </div>
-      <div class="passo">
-        <span class="num">2</span>
-        <h3>Fica tudo junto do analisante</h3>
-        <p>Sessões, registros e estudos em ordem, do primeiro encontro até hoje, sem pasta perdida.</p>
-      </div>
-      <div class="passo">
-        <span class="num">3</span>
-        <h3>Você pergunta em português</h3>
-        <p>"Quando ela começou a falar do pai?" — e a busca varre a história inteira daquele analisante.</p>
-      </div>
-    </div>
-    <div class="aviso" style="background:#232338; border-left-color:var(--ambar); color:#C9CFDB;">
-      <strong style="color:#fff;">O que o Dr.Sig não faz:</strong> não diagnostica, não prescreve
-      conduta, não substitui supervisão nem o seu julgamento clínico, e não fala com o seu
-      analisante. Ele guarda, organiza e encontra — a clínica continua inteiramente sua.
-    </div>
-  </div>
+<div class="wrap">
+<h2>A memória do tratamento, pesquisável</h2>
+<p class="intro-secao">
+Duzentas sessões cabem numa pasta, mas não cabem na cabeça. Você lembra que ela falou do pai
+naquele inverno — não lembra quando, nem com que palavras. O Dr.Sig guarda o que você escreve
+e devolve quando você precisa.
+</p>
+<div class="passos">
+<div class="passo">
+<span class="num">1</span>
+<h3>Você escreve como sempre escreveu</h3>
+<p>Texto corrido ou áudio transcrito. Nada de formulário, campo obrigatório ou categoria a escolher.</p>
+</div>
+<div class="passo">
+<span class="num">2</span>
+<h3>Fica tudo junto do analisante</h3>
+<p>Sessões, registros e estudos em ordem, do primeiro encontro até hoje, sem pasta perdida.</p>
+</div>
+<div class="passo">
+<span class="num">3</span>
+<h3>Você pergunta em português</h3>
+<p>"Quando ela começou a falar do pai?" — e a busca varre a história inteira daquele analisante.</p>
+</div>
+</div>
+<div class="aviso" style="background:#232338; border-left-color:var(--ambar); color:#C9CFDB;">
+<strong style="color:#fff;">O que o Dr.Sig não faz:</strong> não diagnostica, não prescreve
+conduta, não substitui supervisão nem o seu julgamento clínico, e não fala com o seu
+analisante. Ele guarda, organiza e encontra — a clínica continua inteiramente sua.
+</div>
+</div>
 </section>
 
 <section class="cinza" id="privacidade">
-  <div class="wrap estreito">
-    <h2>Sigilo não é uma seção nos termos de uso</h2>
-    <p class="intro-secao">
-      É o requisito de partida de qualquer ferramenta que toque num prontuário. O que fizemos, em
-      concreto:
-    </p>
-    <ul class="lista-limpa">
-      <li><span class="marca-item">→</span><div><strong>Isolamento no próprio banco de dados.</strong> Cada conta enxerga apenas os próprios analisantes. A regra é aplicada pelo banco, não pelo aplicativo — um erro de programação não expõe dados de outra profissional.</div></li>
-      <li><span class="marca-item">→</span><div><strong>Nome fora do que vai para a IA.</strong> Antes de qualquer envio de texto aos serviços de análise, o nome do analisante é substituído por um identificador genérico e a data de nascimento pela idade. Você continua lendo o nome real na tela.</div></li>
-      <li><span class="marca-item">→</span><div><strong>Gravação só com autorização do analisante.</strong> O pedido vai por e-mail para ele, é confirmado com dados de identificação, e sem essa confirmação o app não grava.</div></li>
-      <li><span class="marca-item">→</span><div><strong>Nada de treinar modelo com o seu material.</strong> Os provedores de IA processam o pedido e não usam o conteúdo para treinamento.</div></li>
-      <li><span class="marca-item">→</span><div><strong>Exclusão que exclui de verdade.</strong> Apagar a conta apaga tudo em cascata, sem cópia guardada — e o app avisa antes, porque a Resolução CFP 001/2009 pede cinco anos de guarda do registro documental.</div></li>
-      <li><span class="marca-item">→</span><div><strong>Entrada por biometria.</strong> Face ID ou digital, para o celular esquecido em cima da mesa não virar um problema.</div></li>
-    </ul>
-    <div class="aviso">
-      <strong>Um limite que preferimos dizer:</strong> a transcrição de áudio não tem como ser
-      pseudonimizada — nomes ditos em voz alta durante a sessão chegam ao serviço de transcrição.
-      Por isso a gravação é opcional, depende de autorização, e você decide caso a caso.
-      Os detalhes completos estão na
-      <a href="https://app.drsig.com.br/privacidade.html">Política de Privacidade</a>.
-    </div>
-  </div>
+<div class="wrap estreito">
+<h2>Sigilo não é uma seção nos termos de uso</h2>
+<p class="intro-secao">
+É o requisito de partida de qualquer ferramenta que toque num prontuário. O que fizemos, em
+concreto:
+</p>
+<ul class="lista-limpa">
+<li><span class="marca-item">→</span><div><strong>Isolamento no próprio banco de dados.</strong> Cada conta enxerga apenas os próprios analisantes. A regra é aplicada pelo banco, não pelo aplicativo — um erro de programação não expõe dados de outra profissional.</div></li>
+<li><span class="marca-item">→</span><div><strong>Nome fora do que vai para a IA.</strong> Antes de qualquer envio de texto aos serviços de análise, o nome do analisante é substituído por um identificador genérico e a data de nascimento pela idade. Você continua lendo o nome real na tela.</div></li>
+<li><span class="marca-item">→</span><div><strong>Gravação só com autorização do analisante.</strong> O pedido vai por e-mail para ele, é confirmado com dados de identificação, e sem essa confirmação o app não grava.</div></li>
+<li><span class="marca-item">→</span><div><strong>Nada de treinar modelo com o seu material.</strong> Os provedores de IA processam o pedido e não usam o conteúdo para treinamento.</div></li>
+<li><span class="marca-item">→</span><div><strong>Exclusão que exclui de verdade.</strong> Apagar a conta apaga tudo em cascata, sem cópia guardada — e o app avisa antes, porque a Resolução CFP 001/2009 pede cinco anos de guarda do registro documental.</div></li>
+<li><span class="marca-item">→</span><div><strong>Entrada por biometria.</strong> Face ID ou digital, para o celular esquecido em cima da mesa não virar um problema.</div></li>
+</ul>
+<div class="aviso">
+<strong>Um limite que preferimos dizer:</strong> a transcrição de áudio não tem como ser
+pseudonimizada — nomes ditos em voz alta durante a sessão chegam ao serviço de transcrição.
+Por isso a gravação é opcional, depende de autorização, e você decide caso a caso.
+Os detalhes completos estão na
+<a href="https://app.drsig.com.br/privacidade.html">Política de Privacidade</a>.
+</div>
+</div>
 </section>
 
 <section id="duvidas">
-  <div class="wrap estreito">
-    <h2>Dúvidas</h2>
-    <div style="margin-top: 30px;">
-      <details>
-        <summary>Preciso mudar meu jeito de anotar?</summary>
-        <p>Não. O app não impõe formato, ficha ou campo obrigatório para o conteúdo clínico. Você escreve como escreve; a leitura se apoia no texto corrido.</p>
-      </details>
-      <details>
-        <summary>Isso substitui supervisão?</summary>
-        <p>Não, e não foi feito para isso. O app guarda e encontra o que você escreveu — quem lê e interpreta continua sendo você. Aliás, material bem guardado costuma render mais na supervisão do que memória sozinha.</p>
-      </details>
-      <details>
-        <summary>Meus analisantes precisam instalar alguma coisa?</summary>
-        <p>Não. Eles só recebem e-mail em duas situações: para autorizar uma gravação, se você quiser gravar, e para receber recibo, se você optar por enviar.</p>
-      </details>
-      <details>
-        <summary>E se eu quiser sair do Dr.Sig?</summary>
-        <p>Você exporta seus dados e apaga a conta pelo próprio app. Não retemos cópia, e não existe cláusula prendendo seu material aqui dentro.</p>
-      </details>
-      <details>
-        <summary>Funciona sem internet?</summary>
-        <p>O registro do dia a dia continua funcionando; os recursos que dependem de processamento — transcrição, análise, busca — precisam de conexão.</p>
-      </details>
-      <details>
-        <summary>Quanto custa?</summary>
-        <p>
-          R$ 119 por mês, sem fidelidade e sem prazo mínimo. A assinatura inclui
-          R$ 20 por mês em créditos para os recursos que usam IA — transcrição,
-          análise e busca. Crédito não usado não se perde: acumula para o mês seguinte.
-        </p>
-      </details>
-    </div>
-  </div>
+<div class="wrap estreito">
+<h2>Dúvidas</h2>
+<div style="margin-top: 30px;">
+<details>
+<summary>Preciso mudar meu jeito de anotar?</summary>
+<p>Não. O app não impõe formato, ficha ou campo obrigatório para o conteúdo clínico. Você escreve como escreve; a leitura se apoia no texto corrido.</p>
+</details>
+<details>
+<summary>Isso substitui supervisão?</summary>
+<p>Não, e não foi feito para isso. O app guarda e encontra o que você escreveu — quem lê e interpreta continua sendo você. Aliás, material bem guardado costuma render mais na supervisão do que memória sozinha.</p>
+</details>
+<details>
+<summary>Meus analisantes precisam instalar alguma coisa?</summary>
+<p>Não. Eles só recebem e-mail em duas situações: para autorizar uma gravação, se você quiser gravar, e para receber recibo, se você optar por enviar.</p>
+</details>
+<details>
+<summary>E se eu quiser sair do Dr.Sig?</summary>
+<p>Você exporta seus dados e apaga a conta pelo próprio app. Não retemos cópia, e não existe cláusula prendendo seu material aqui dentro.</p>
+</details>
+<details>
+<summary>Funciona sem internet?</summary>
+<p>O registro do dia a dia continua funcionando; os recursos que dependem de processamento — transcrição, análise, busca — precisam de conexão.</p>
+</details>
+<details>
+<summary>Quanto custa?</summary>
+<p>
+Três formas de assinar: R$ 89 por mês, R$ 414 a cada seis meses (cerca de R$ 69/mês) ou
+R$ 588 por ano (cerca de R$ 49/mês) — sem fidelidade em nenhuma delas. A assinatura inclui
+até R$ 10 por mês em créditos para os recursos que usam IA — transcrição,
+análise e busca. Crédito não usado não se perde: acumula para o mês seguinte.
+</p>
+</details>
+</div>
+</div>
 </section>
 
 <section class="cinza" id="acesso">
-  <div class="wrap estreito">
-    <h2>Plano</h2>
-    <p class="intro-secao">
-      A assinatura é contratada aqui no site. Depois é só entrar no aplicativo com o mesmo e-mail —
-      a conta já estará ativa.
-    </p>
+<div class="wrap estreito">
+<h2>Plano</h2>
+<p class="intro-secao">
+A assinatura é contratada aqui no site. Depois é só entrar no aplicativo com o mesmo e-mail —
+a conta já estará ativa.
+</p>
 
-    <div class="plano destacado" style="max-width:380px;">
-      <div class="plano-nome">Mensal</div>
-      <div class="plano-valor">R$ 119<span>/mês</span></div>
-      <div class="plano-obs">Sem fidelidade. Cancele quando quiser.</div>
-      <ul class="plano-itens">
-        <li>Todos os recursos, sem limite de analisantes</li>
-        <li>R$ 20/mês em créditos de IA</li>
-      </ul>
-      <a href="https://mpago.la/2NjrpL3" class="btn" style="width:100%;text-align:center;">Assinar</a>
-    </div>
+<div class="planos">
 
-    <p style="font-size:13.5px;color:var(--suave);margin-top:26px;max-width:64ch;">
-      Pagamento pelo Mercado Pago, em cartão ou Pix. Sem fidelidade: você cancela quando quiser e
-      não há multa nem prazo mínimo. Dúvidas ou outra forma de pagamento:
-      <a href="mailto:drsig@drsig.com.br" style="color:var(--azul);">drsig@drsig.com.br</a>.
-    </p>
-  </div>
+<div class="plano">
+<div class="plano-nome">Mensal</div>
+<div class="plano-valor">R$ 89<span>/mês</span></div>
+<div class="plano-obs">Sem fidelidade. Cancele quando quiser.</div>
+<ul class="plano-itens">
+<li>Todos os recursos, sem limite de analisantes</li>
+<li>Até R$ 10/mês em créditos de IA</li>
+</ul>
+<a href="https://mpago.la/2NjrpL3" class="btn" style="width:100%;text-align:center;">Assinar</a>
+</div>
+
+<div class="plano destacado">
+<div class="selo">Melhor custo-benefício</div>
+<div class="plano-nome">Semestral</div>
+<div class="plano-valor">R$ 414<span>/6 meses</span></div>
+<div class="plano-obs">Equivale a ~R$ 69/mês. Sem fidelidade.</div>
+<ul class="plano-itens">
+<li>Todos os recursos, sem limite de analisantes</li>
+<li>Até R$ 10/mês em créditos de IA</li>
+</ul>
+<a href="mailto:drsig@drsig.com.br?subject=Assinatura%20semestral%20Dr.Sig" class="btn" style="width:100%;text-align:center;">Assinar por e-mail</a>
+</div>
+
+<div class="plano">
+<div class="plano-nome">Anual</div>
+<div class="plano-valor">R$ 588<span>/ano</span></div>
+<div class="plano-obs">Equivale a ~R$ 49/mês. Sem fidelidade.</div>
+<ul class="plano-itens">
+<li>Todos os recursos, sem limite de analisantes</li>
+<li>Até R$ 10/mês em créditos de IA</li>
+</ul>
+<a href="mailto:drsig@drsig.com.br?subject=Assinatura%20anual%20Dr.Sig" class="btn" style="width:100%;text-align:center;">Assinar por e-mail</a>
+</div>
+
+</div>
+
+<p style="font-size:13.5px;color:var(--suave);margin-top:26px;max-width:64ch;">
+Pagamento pelo Mercado Pago, em cartão ou Pix. Sem fidelidade: você cancela quando quiser e
+não há multa nem prazo mínimo. Dúvidas ou outra forma de pagamento:
+<a href="mailto:drsig@drsig.com.br" style="color:var(--azul);">drsig@drsig.com.br</a>.
+</p>
+</div>
 </section>
 
 <section style="padding-top:0;">
-  <div class="wrap estreito">
-    <div style="border-top:1px solid var(--linha);padding-top:52px;">
-      <h2 style="font-size:22px;">Quem faz</h2>
-      <p style="font-size:15.5px;max-width:62ch;">
-        O Dr.Sig é desenvolvido por <strong>Paulo Von Schwerin Pimentel</strong>, sob o nome
-        Dr.Sig Soluções Digitais.
-      </p>
-      <p style="font-size:15.5px;max-width:62ch;">
-        <span style="background:#FFF3E8;border-left:3px solid var(--ambar);padding:2px 8px;border-radius:4px;">[opcional, mas vale muito: duas ou três frases sobre sua formação, seu tempo de clínica e o problema concreto que te fez construir isto. Para um público de psicoterapeutas, este é o parágrafo que decide se a ferramenta nasceu de dentro da prática ou de fora dela.]</span>
-      </p>
-    </div>
-  </div>
+<div class="wrap estreito">
+<div style="border-top:1px solid var(--linha);padding-top:52px;">
+<h2 style="font-size:22px;">Quem faz</h2>
+<p style="font-size:15.5px;max-width:62ch;">
+O Dr.Sig é desenvolvido por <strong>Paulo Von Schwerin Pimentel</strong>, sob o nome
+Dr.Sig Soluções Digitais.
+</p>
+</div>
+</div>
 </section>
 
 <footer>
-  <div class="wrap">
-    <div class="rodape-topo">
-      <div>
-        <div style="color:#fff;font-weight:700;font-size:17px;margin-bottom:6px;">Dr.Sig</div>
-        <div style="max-width:34ch;">Apoio à prática de quem faz psicoterapia.</div>
-      </div>
-      <div class="rodape-links">
-        <a href="https://app.drsig.com.br/privacidade.html">Privacidade</a>
-        <a href="https://app.drsig.com.br/termos.html">Termos de Uso</a>
-        <a href="mailto:drsig@drsig.com.br">Contato</a>
-      </div>
-    </div>
-    <div class="rodape-fim">
-      © 2026 Dr.Sig. O Dr.Sig é ferramenta de apoio e organização. Não realiza diagnóstico, não
-      presta atendimento em saúde e não substitui o julgamento clínico do profissional.
-    </div>
-  </div>
+<div class="wrap">
+<div class="rodape-topo">
+<div>
+<div style="color:#fff;font-weight:700;font-size:17px;margin-bottom:6px;">Dr.Sig</div>
+<div style="max-width:34ch;">Apoio à prática de quem faz psicoterapia.</div>
+</div>
+<div class="rodape-links">
+<a href="https://app.drsig.com.br/privacidade.html">Privacidade</a>
+<a href="https://app.drsig.com.br/termos.html">Termos de Uso</a>
+<a href="mailto:drsig@drsig.com.br">Contato</a>
+</div>
+</div>
+<div class="rodape-fim">
+© 2026 Dr.Sig. O Dr.Sig é ferramenta de apoio e organização. Não realiza diagnóstico, não
+presta atendimento em saúde e não substitui o julgamento clínico do profissional.
+</div>
+</div>
 </footer>
 
 </body>

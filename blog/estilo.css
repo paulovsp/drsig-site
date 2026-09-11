@@ -1,0 +1,50 @@
+/* Blog do Dr.Sig — os mesmos tokens do site e do app (KIT-DA-MARCA.md). */
+:root {
+  --salvia: #497363; --salvia-funda: #3A5C4F; --salvia-base: #6B9E8A; --salvia-suave: #A8CBBA; --salvia-veu: #E4EFE9;
+  --atencao: #7D6540; --atencao-veu: #F2E9DC;
+  --tinta: #302C28; --corpo: #4E4941; --suave: #756E66; --fundo: #F7F5F0; --alto: #FDFCFA; --linha: #EAE5DC;
+  --sombra: 0 6px 18px rgba(78, 73, 65, 0.07);
+}
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; color: var(--corpo); background: var(--fundo); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: var(--salvia); }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 22px; }
+header.topo { position: sticky; top: 0; z-index: 50; background: rgba(247,245,240,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--linha); }
+.barra { display: flex; align-items: center; justify-content: space-between; height: 62px; }
+.marca { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
+.marca .wordmark { font-size: 22px; font-weight: 600; font-style: italic; letter-spacing: -0.5px; color: var(--salvia-funda); }
+.marca .tagline { font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--salvia-base); }
+nav a { color: var(--corpo); text-decoration: none; font-size: 14px; margin-left: 20px; }
+nav a:hover { color: var(--salvia); }
+@media (max-width: 600px) { .marca .tagline, nav .oculta-mobile { display: none; } }
+.onda { display: block; width: 100%; height: 40px; }
+
+article { padding: 40px 0 60px; }
+.eyebrow { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--suave); font-weight: 500; margin-bottom: 8px; }
+h1 { font-size: clamp(28px, 4.6vw, 38px); line-height: 1.18; letter-spacing: -0.8px; color: var(--tinta); font-weight: 700; margin: 0 0 14px; text-wrap: balance; }
+.lede { font-size: 18px; color: var(--suave); margin: 0 0 30px; max-width: 60ch; }
+.meta { font-size: 13px; color: var(--suave); margin-bottom: 34px; }
+article h2 { font-size: 22px; letter-spacing: -0.4px; color: var(--tinta); margin: 38px 0 10px; text-wrap: balance; }
+article h3 { font-size: 17px; color: var(--salvia-funda); margin: 26px 0 8px; }
+article p, article li { font-size: 16.5px; max-width: 66ch; }
+article ul, article ol { padding-left: 22px; }
+article blockquote { margin: 22px 0; padding: 12px 18px; border-left: 3px solid var(--salvia); background: var(--salvia-veu); border-radius: 4px 12px 12px 4px; color: var(--corpo); }
+article blockquote p { margin: 0; }
+.no-app { margin: 34px 0; padding: 20px 22px; background: var(--alto); border-radius: 16px; box-shadow: var(--sombra); }
+.no-app h3 { margin: 0 0 6px; }
+.no-app p { margin: 0 0 12px; font-size: 15px; }
+.btn { display: inline-block; background: var(--salvia); color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 10px; font-weight: 600; font-size: 15px; }
+.btn:hover { background: var(--salvia-funda); }
+.aviso { border-left: 3px solid var(--atencao); background: var(--atencao-veu); color: var(--atencao); padding: 14px 18px; border-radius: 4px 12px 12px 4px; margin: 26px 0; font-size: 14.5px; }
+.autor { margin-top: 44px; padding-top: 22px; border-top: 1px solid var(--linha); font-size: 14px; color: var(--suave); }
+
+/* índice do blog */
+.lista { display: grid; gap: 16px; padding: 30px 0 60px; }
+.cartao { background: var(--alto); border-radius: 16px; padding: 22px 24px; box-shadow: var(--sombra); text-decoration: none; color: inherit; display: block; transition: transform .18s ease, box-shadow .18s ease; }
+.cartao:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(78,73,65,.12); }
+.cartao h2 { margin: 4px 0 6px; font-size: 20px; color: var(--tinta); letter-spacing: -0.3px; }
+.cartao p { margin: 0; font-size: 15px; color: var(--corpo); }
+
+footer { background: var(--salvia-funda); color: #C9DED3; padding: 40px 0; font-size: 14px; }
+footer a { color: #E4EFE9; text-decoration: none; }
+footer .wrap { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }

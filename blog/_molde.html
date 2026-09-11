@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Molde de artigo do blog. O Redator copia este arquivo para
+     blog/<slug>.html e preenche o que está entre {{ }}. As regras de
+     texto estão em KIT-DA-MARCA.md e no perfil do redator. -->
+<title>{{TITULO}} — Dr.Sig</title>
+<meta name="description" content="{{META_DESCRIPTION}}" />
+<meta property="og:title" content="{{TITULO}}" />
+<meta property="og:description" content="{{META_DESCRIPTION}}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://drsig.com.br/blog/{{SLUG}}.html" />
+<link rel="canonical" href="https://drsig.com.br/blog/{{SLUG}}.html" />
+<meta name="theme-color" content="#497363" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23497363'/><text y='70' x='50' text-anchor='middle' font-size='52' font-style='italic' font-weight='600' font-family='Georgia,serif' fill='white'>S</text></svg>" />
+<link rel="stylesheet" href="estilo.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"{{TITULO}}","datePublished":"{{DATA_ISO}}","author":{"@type":"Organization","name":"Dr.Sig"},"publisher":{"@type":"Organization","name":"Dr.Sig Soluções Digitais"}}
+</script>
+</head>
+<body>
+<header class="topo">
+  <div class="wrap barra">
+    <a href="https://drsig.com.br/" class="marca"><span class="wordmark">Dr.Sig</span><span class="tagline">O seu assistente clínico</span></a>
+    <nav><a href="index.html">Blog</a><a class="oculta-mobile" href="https://drsig.com.br/#recursos">Recursos</a><a href="https://drsig.com.br/#acesso">Plano</a></nav>
+  </div>
+</header>
+
+<article class="wrap">
+  <div class="eyebrow">{{CATEGORIA}}</div>
+  <h1>{{TITULO}}</h1>
+  <p class="lede">{{LEDE}}</p>
+  <p class="meta">{{DATA_EXTENSO}} · {{MINUTOS}} min de leitura</p>
+
+  {{CORPO}}
+
+  <div class="no-app">
+    <h3>{{CHAMADA_TITULO}}</h3>
+    <p>{{CHAMADA_TEXTO}}</p>
+    <a class="btn" href="https://drsig.com.br/?utm_source=blog&utm_campaign={{CAMPANHA}}">Conhecer o Dr.Sig</a>
+  </div>
+
+  <p class="autor">Escrito pela equipe do Dr.Sig. O Dr.Sig é ferramenta de organização e apoio à prática clínica: não diagnostica, não trata e não substitui a supervisão nem o seu julgamento clínico.</p>
+</article>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 Dr.Sig Soluções Digitais</div>
+    <div><a href="https://app.drsig.com.br/privacidade.html">Privacidade</a> · <a href="https://app.drsig.com.br/termos.html">Termos</a> · <a href="mailto:drsig@drsig.com.br">Contato</a></div>
+  </div>
+</footer>
+</body>
+</html>

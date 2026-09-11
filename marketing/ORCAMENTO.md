@@ -1,12 +1,10 @@
 # Orçamento de anúncios
 
-**Teto mensal: não definido.** Enquanto esta linha existir, o Estrategista
-planeja "sem anúncios pagos" e o Gestor de tráfego só prepara campanhas em
-rascunho — nada é ativado.
+**Teto mensal: R$ 200** (definido pelo dono em 11/09/2026). A divisão por
+canal é do Estrategista, no plano do mês; sem divisão escrita no plano,
+nada é ativado.
 
-Para definir, o dono substitui a linha acima por, por exemplo:
-
-    Teto mensal: R$ 800 (Google Ads até R$ 500; Meta Ads até R$ 300).
+Para mudar, o dono edita a linha acima.
 
 ## Regras
 

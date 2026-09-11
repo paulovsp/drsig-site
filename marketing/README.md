@@ -27,7 +27,8 @@ mover a pasta.
 1. Dia 1: o Estrategista escreve o plano e manda os "pedidos ao dono".
 2. Toda terça: o Redator entrega as peças da semana em `pendente/`.
 3. O dono lê `peca.md`, e move a pasta: `aprovado/`, ou `recusado/` com a razão.
-4. Publicação: hoje é manual (o dono cola no Instagram/LinkedIn; artigos
+4. Publicação: hoje é manual (o dono cola no Instagram @oseusig, no
+   Facebook e no LinkedIn; artigos
    entram no site por commit em `blog/`). Quando as APIs de publicação
    estiverem ligadas, um agente publica o que está em `aprovado/` e move
    para `publicado/`.

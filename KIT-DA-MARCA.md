@@ -77,3 +77,17 @@ sobre dinheiro, cobrança ou erro.
 Azul-marinho, âmbar ou qualquer paleta antiga; emoji como marcador de
 seção; "Mais escolhido" e prova social inventada; capturas do app com
 dados de gente real (só a demonstração do Freud).
+
+## Onde a marca está
+
+| Canal | Endereço | Situação |
+|---|---|---|
+| Site | https://drsig.com.br | no ar |
+| Blog | https://drsig.com.br/blog/ | no ar |
+| Instagram | @oseusig | existe; o "link na bio" aponta para o site |
+| Facebook | página do Dr.Sig | existe |
+| E-mail | drsig@drsig.com.br | caixa no UOL; remetente e `reply_to` de todo e-mail do app |
+| LinkedIn | — | página ainda não criada |
+
+Peça para Instagram termina com "link na bio"; a legenda não leva URL.
+Peça para LinkedIn e Facebook leva o link do artigo com UTM.

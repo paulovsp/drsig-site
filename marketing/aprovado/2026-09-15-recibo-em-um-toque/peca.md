@@ -6,7 +6,8 @@ funcao_do_app: Fiscal (recibo em PDF, envio ao analisante e ao contador)
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html?utm_source=instagram&utm_campaign=2026-09-recibo-ir
-estado: aprovado (11/09/2026, texto; arte pendente — sem Designer)
+estado: aprovado (11/09/2026)
+arte: pronta (8 quadros), captura pendente: fiscal-demonstracao
 ---
 
 # Quadros

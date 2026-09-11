@@ -1,0 +1,9 @@
+{
+  "name": "drsig-designer",
+  "private": true,
+  "description": "Renderiza os quadros de uma peça (quadros.json) em PNG 1080x1350 no kit da marca Dr.Sig.",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

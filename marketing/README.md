@@ -9,8 +9,12 @@ mover a pasta.
   orçamento, o que parar, pedidos ao dono.
 - `pendente/AAAA-MM-DD-<slug>/` — peças prontas esperando aprovação
   (Redator + Designer). Cada pasta tem `peca.md` (o texto, com cabeçalho
-  YAML) e `imagens.md` (o pedido de arte) — e as artes, quando o Designer
-  as fizer.
+  YAML), `imagens.md` (o pedido de arte), `quadros.json` (a arte descrita,
+  feita pelo Designer) e `quadro-NN.png` (as imagens renderizadas).
+- `capturas/<nome>.png` — capturas do app na conta de demonstração, que os
+  quadros do tipo `captura` usam. Quem tira é o dono; o Designer só pede.
+- `designer/` — o renderizador (`render.mjs`) e o registro semanal
+  `designer/AAAA-MM-DD.md`.
 - `aprovado/` — o dono moveu a pasta para cá: pode publicar.
 - `publicado/` — publicada, com a data e o link no cabeçalho de `peca.md`.
 - `recusado/` — o dono não quis; a razão vai numa linha no `peca.md`, e o
@@ -26,7 +30,11 @@ mover a pasta.
 
 1. Dia 1: o Estrategista escreve o plano e manda os "pedidos ao dono".
 2. Toda terça: o Redator entrega as peças da semana em `pendente/`.
-3. O dono lê `peca.md`, e move a pasta: `aprovado/`, ou `recusado/` com a razão.
+   Toda quarta: o Designer renderiza as artes de cada peça na própria pasta.
+3. Toda sexta, na conversa com o Claude, o dono vê as peças com as imagens
+   e diz "aprovo" ou "recuso: razão"; a pasta é movida para `aprovado/` ou
+   `recusado/` por quem recebeu a resposta. O dono nunca precisa abrir o
+   repositório.
 4. Publicação: hoje é manual (o dono cola no Instagram @oseusig, no
    Facebook e no LinkedIn; artigos
    entram no site por commit em `blog/`). Quando as APIs de publicação

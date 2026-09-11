@@ -1,0 +1,68 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    {
+      "tipo": "capa",
+      "rotulo": "Fiscal",
+      "ilustracao": "papeis",
+      "titulo": "\"Você me manda o recibo do ano inteiro?\"",
+      "texto": "Março chega e o pedido é sempre o mesmo."
+    },
+    {
+      "tipo": "tipografia",
+      "rotulo": "Por que todo mundo pede",
+      "titulo": "Despesa médica. Sem limite de dedução.",
+      "texto": "O recibo de psicoterapia entra na declaração do Imposto de Renda do seu analisante."
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "O que o recibo precisa ter",
+      "titulo": "Cinco coisas. Só.",
+      "itens": [
+        "Seu nome, CPF e CRP",
+        "Nome e **CPF de quem pagou**",
+        "Valor e período",
+        "\"Prestação de serviços de psicoterapia\"",
+        "Data e assinatura"
+      ]
+    },
+    {
+      "tipo": "destaque",
+      "rotulo": "O erro mais comum",
+      "titulo": "Recibo sem o CPF do analisante.",
+      "etiqueta": "CPF de quem pagou",
+      "valor": "",
+      "texto": "É o campo que a Receita cruza. Sem ele, a dedução cai — e o pedido de \"outro recibo\" chega em abril."
+    },
+    {
+      "tipo": "cartoes",
+      "rotulo": "Um por…",
+      "titulo": "Qual você consegue manter?",
+      "cartoes": [
+        { "titulo": "Sessão", "texto": "O mais transparente. O mais cansativo." },
+        { "titulo": "Mês", "texto": "O equilíbrio que a maioria adota.", "principal": true },
+        { "titulo": "Ano", "texto": "Resolve março, se o registro do ano estiver em dia." }
+      ],
+      "texto": "Vale qualquer um. A pergunta certa não é \"qual é o certo\"."
+    },
+    {
+      "tipo": "icone",
+      "rotulo": "Sigilo",
+      "ilustracao": "cadeado",
+      "titulo": "Sem diagnóstico. Sem CID. Só o fiscal.",
+      "texto": "O recibo é documento fiscal. O sigilo continua valendo nele."
+    },
+    {
+      "tipo": "captura",
+      "rotulo": "No Dr.Sig",
+      "captura": "fiscal-demonstracao",
+      "captura_texto": "Tela Fiscal da conta de demonstração",
+      "titulo": "Um toque. Analisante e contador.",
+      "texto": "O recibo do mês de cada analisante já está pronto. Dá para deixar automático."
+    },
+    {
+      "tipo": "fecho",
+      "texto": "Texto completo no blog · link na bio"
+    }
+  ]
+}

@@ -416,7 +416,7 @@ independente de qual conta do Mercado Pago você usar para pagar.
 <li>Todos os recursos, sem limite de analisantes</li>
 <li>R$ 5 por mês em créditos de IA, de brinde</li>
 </ul>
-<a href="https://play.google.com/store/apps/details?id=br.com.drsig.app" class="btn" style="width:100%;text-align:center;">Comece por aqui</a>
+<a href="https://play.google.com/store/apps/details?id=br.com.drsig.app" class="btn link-loja" style="width:100%;text-align:center;">Comece por aqui</a>
 </div>
 
 <div class="plano destacado">
@@ -428,7 +428,7 @@ independente de qual conta do Mercado Pago você usar para pagar.
 <li>Todos os recursos, sem limite de analisantes</li>
 <li>R$ 7 por mês em créditos de IA, de brinde</li>
 </ul>
-<a href="https://play.google.com/store/apps/details?id=br.com.drsig.app" class="btn" style="width:100%;text-align:center;">Comece por aqui</a>
+<a href="https://play.google.com/store/apps/details?id=br.com.drsig.app" class="btn link-loja" style="width:100%;text-align:center;">Comece por aqui</a>
 </div>
 
 <div class="plano">
@@ -439,7 +439,7 @@ independente de qual conta do Mercado Pago você usar para pagar.
 <li>Todos os recursos, sem limite de analisantes</li>
 <li>R$ 10 por mês em créditos de IA, de brinde</li>
 </ul>
-<a href="https://play.google.com/store/apps/details?id=br.com.drsig.app" class="btn" style="width:100%;text-align:center;">Comece por aqui</a>
+<a href="https://play.google.com/store/apps/details?id=br.com.drsig.app" class="btn link-loja" style="width:100%;text-align:center;">Comece por aqui</a>
 </div>
 
 </div>
@@ -480,5 +480,31 @@ presta atendimento em saúde e não substitui o julgamento clínico do profissio
 </div>
 </footer>
 
+<script>
+  // ── De onde a pessoa veio ─────────────────────────────────────────────
+  // Lê utm_source / utm_campaign da URL, guarda por 30 dias neste
+  // navegador e repassa no link da loja como \`referrer\` — o Android entrega
+  // isso ao app na instalação, e o funil consegue dizer qual canal trouxe
+  // cada cadastro. Não identifica a pessoa: é só o nome do canal.
+  (function () {
+    var CHAVE = 'drsig.origem';
+    var q = new URLSearchParams(location.search);
+    var origem = q.get('utm_source');
+    var campanha = q.get('utm_campaign');
+    try {
+      if (origem) {
+        localStorage.setItem(CHAVE, JSON.stringify({ origem: origem, campanha: campanha || '', ate: Date.now() + 30 * 864e5 }));
+      } else {
+        var g = JSON.parse(localStorage.getItem(CHAVE) || 'null');
+        if (g && g.ate > Date.now()) { origem = g.origem; campanha = g.campanha; }
+      }
+    } catch (_) {}
+    if (!origem) return;
+    var referrer = 'utm_source=' + encodeURIComponent(origem) + (campanha ? '&utm_campaign=' + encodeURIComponent(campanha) : '');
+    document.querySelectorAll('a.link-loja').forEach(function (a) {
+      a.href = a.href.split('&referrer=')[0] + '&referrer=' + encodeURIComponent(referrer);
+    });
+  })();
+</script>
 </body>
 </html>

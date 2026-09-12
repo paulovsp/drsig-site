@@ -9,6 +9,9 @@ link: https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html?utm
 estado: aprovado (11/09/2026)
 arte: pronta (8 quadros)
 publicar_em: 2026-09-12
+publicado_em: 2026-09-12
+instagram: https://www.instagram.com/p/DdMDJ7jkQCQ/
+facebook: https://www.facebook.com/1384031781450259_122107331505466353
 ---
 
 # Quadros

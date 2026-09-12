@@ -1,5 +1,12 @@
 # Ligar a publicação automática no Instagram e no Facebook
 
+**Situação: ligado em 12/09/2026.** App da Meta "zap" (o mesmo do WhatsApp)
+com os casos de uso "API do Instagram" e "Gerenciar Páginas"; Página do
+Facebook "Dr. Sig" (administrada pela conta "DrSig Assistente Clinico") com
+a @oseusig ligada; token de Página sem expiração guardado no Supabase.
+`verificar_meta` devolve a Página e o @oseusig. O que segue é o registro de
+como foi feito, para refazer se o token cair.
+
 O Publicador publica pela Graph API da Meta. Para isso a Dr.Sig precisa,
 uma vez só, de três coisas que só o dono pode criar. Depois disso o agente
 publica sozinho o que foi aprovado.

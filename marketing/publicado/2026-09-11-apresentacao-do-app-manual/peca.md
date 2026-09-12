@@ -9,7 +9,7 @@ link: nenhum (posts sem legenda)
 estado: publicado
 origem: manual — postado pelo dono no app do Instagram, fora do fluxo dos agentes
 publicado_em: 2026-09-11
-impulsionado: sim — um dos posts; qual, valor e período em marketing/gastos/2026-09.md
+impulsionado: sim — quadro 1/12 (https://www.instagram.com/p/DdIj81oO8SG/), R$ 30 de 11 a 14/09, público "psi"; parciais em marketing/gastos/2026-09.md
 ---
 
 # O que saiu
@@ -34,10 +34,9 @@ seguidos.
 | 11/12 | Seus dados · Exporte tudo quando quiser. | https://www.instagram.com/p/DdIlXSJudhW/ |
 | 12/12 | O Freud, sem texto. | https://www.instagram.com/p/DdIl6ySOWdN/ |
 
-Capturas: conta de demonstração (Freud), com uma exceção — os quadros 6/12
-e 7/12 mostram nomes de analisante ("Carolina Mendes Luz", "Rafael
-Moreira") que não são da demonstração. Conferir se são inventados; se
-forem de gente real, os dois posts precisam sair.
+Capturas: conta de demonstração (Freud). Os nomes "Carolina Mendes Luz" e
+"Rafael Moreira" (quadros 6/12 e 7/12) são fictícios, confirmado pelo dono
+em 12/09.
 
 # Para o Analista
 

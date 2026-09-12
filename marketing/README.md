@@ -31,15 +31,18 @@ mover a pasta.
 1. Dia 1: o Estrategista escreve o plano e manda os "pedidos ao dono".
 2. Toda terça: o Redator entrega as peças da semana em `pendente/`.
    Toda quarta: o Designer renderiza as artes de cada peça na própria pasta.
-3. Toda sexta, na conversa com o Claude, o dono vê as peças com as imagens
-   e diz "aprovo" ou "recuso: razão"; a pasta é movida para `aprovado/` ou
-   `recusado/` por quem recebeu a resposta. O dono nunca precisa abrir o
-   repositório.
-4. Publicação: hoje é manual (o dono cola no Instagram @oseusig, no
-   Facebook e no LinkedIn; artigos
-   entram no site por commit em `blog/`). Quando as APIs de publicação
-   estiverem ligadas, um agente publica o que está em `aprovado/` e move
-   para `publicado/`.
+3. Toda sexta: o Publicador monta a proposta da semana (`semana/AAAA-MM-DD.md`,
+   que peça em que dia, de segunda a domingo) e manda ao dono por e-mail,
+   com as imagens. O dono responde na conversa com o Claude: "aprovo a
+   semana", "aprovo menos X" ou "muda X para quinta". O Claude escreve
+   `publicar_em: AAAA-MM-DD` no cabeçalho de cada peça aprovada e move a
+   pasta para `aprovado/` (ou `recusado/` com a razão). O dono nunca precisa
+   abrir o repositório.
+4. Todo dia: o Publicador publica no Instagram e no Facebook o que está em
+   `aprovado/` com `publicar_em` igual a hoje, escreve o link no cabeçalho e
+   move a pasta para `publicado/`. Artigos entram no site por commit em
+   `blog/`. LinkedIn: até a API ser liberada, o texto do dia chega ao dono
+   por e-mail, pronto para colar. Como ligar a Meta: `publicador/SETUP-META.md`.
 5. Toda segunda: o Analista diz o que aconteceu.
 
 ## Regras fixas (também estão em `KIT-DA-MARCA.md`)

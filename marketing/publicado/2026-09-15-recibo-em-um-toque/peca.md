@@ -11,7 +11,7 @@ arte: pronta (8 quadros)
 publicar_em: 2026-09-12
 publicado_em: 2026-09-12
 instagram: https://www.instagram.com/p/DdMDJ7jkQCQ/
-facebook: https://www.facebook.com/1384031781450259_122107331505466353
+facebook: https://www.facebook.com/122107358865466353/posts/122107331505466353
 ---
 
 # Quadros

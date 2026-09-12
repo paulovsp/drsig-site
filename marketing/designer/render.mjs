@@ -77,7 +77,7 @@ const CSS = `
   .campo { margin-top: 56px; background: ${COR.alto}; border: 2px solid ${COR.linha}; border-left: 14px solid ${COR.atencao}; border-radius: 16px; padding: 40px 44px; box-shadow: 0 6px 18px rgba(78,73,65,0.07); }
   .campo .etiqueta { font-size: 24px; letter-spacing: 3px; text-transform: uppercase; color: ${COR.atencao}; font-weight: 700; margin-bottom: 18px; }
   .campo .caixa { height: 84px; border: 2px dashed ${COR.suave}; border-radius: 12px; background: ${COR.papel}; display: flex; align-items: center; padding: 0 28px; font-size: 34px; color: ${COR.tinta400}; }
-  .cartoes { margin-top: 56px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .cartoes { margin-top: 56px; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 28px; }
   .cartao { background: ${COR.alto}; border: 1px solid ${COR.linha}; border-radius: 20px; padding: 40px 30px; min-height: 340px; box-shadow: 0 6px 18px rgba(78,73,65,0.07); display: flex; flex-direction: column; gap: 18px; }
   .cartao h2 { font-size: 40px; font-weight: 700; letter-spacing: -0.5px; color: ${COR.funda}; }
   .cartao p { font-size: 28px; line-height: 1.38; color: ${COR.tinta700}; }

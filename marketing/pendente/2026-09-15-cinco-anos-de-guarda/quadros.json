@@ -1,0 +1,11 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Guarda de registros", "ilustracao": "papeis", "titulo": "Até quando guardar o registro do atendimento?", "texto": "Para quem tem CRP é regra (Resolução CFP 001/2009). Para quem não tem, é a boa prática que protege as duas partes." },
+    { "tipo": "tipografia", "rotulo": "O prazo", "titulo": "Cinco anos. No mínimo.", "texto": "Contados do último atendimento." },
+    { "tipo": "lista", "rotulo": "O que precisa estar guardado", "titulo": "Cinco coisas.", "itens": ["Identificação da analisante", "Datas das sessões", "**Registro de cada atendimento**", "Encaminhamentos e relatórios", "Autorizações"] },
+    { "tipo": "cartoes", "rotulo": "Onde guardar", "titulo": "Caderno, computador ou app?", "cartoes": [ { "titulo": "Caderno", "texto": "Cinco anos numa gaveta. Molha, perde, alguém acha." }, { "titulo": "Computador", "texto": "Arquivo solto: sem data por sessão, sem sigilo garantido." }, { "titulo": "No app", "texto": "Registro por sessão, com data, isolado por consultório.", "principal": true } ] },
+    { "tipo": "captura", "rotulo": "Meu Perfil", "captura": "perfil-exportar-demonstracao", "titulo": "A guarda é sua, não nossa.", "texto": "\"Exportar meus dados\" tira tudo em arquivo quando você quiser. Excluir a conta apaga tudo." },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

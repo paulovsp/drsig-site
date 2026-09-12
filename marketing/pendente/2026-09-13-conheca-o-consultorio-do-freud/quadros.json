@@ -1,0 +1,11 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Demonstração", "ilustracao": "toque", "titulo": "Abra o app sem criar conta.", "texto": "Dentro tem um consultório inteiro, inventado: o do Sigmund Freud." },
+    { "tipo": "captura", "rotulo": "O consultório do Freud", "captura": "perfil-demonstracao", "titulo": "15 fichas. 67 registros.", "texto": "Agenda de quatro semanas e três sessões transcritas. É a mesma amostra para todo mundo." },
+    { "tipo": "captura", "rotulo": "Agenda", "captura": "agenda-semanal-demonstracao", "titulo": "Se repete sozinha.", "texto": "A partir do horário fixo de cada analisante. Falta e cancelamento ficam registrados." },
+    { "tipo": "captura", "rotulo": "Cobrança", "captura": "cobranca-demonstracao", "titulo": "Quem está devendo, sem planilha.", "texto": "O app cruza as sessões realizadas com o que entrou." },
+    { "tipo": "tipografia", "rotulo": "Só para olhar", "titulo": "Tudo inventado. Nada pode ser alterado.", "texto": "É para mexer e entender o que o app faz antes de decidir." },
+    { "tipo": "fecho", "texto": "Google Play · link na bio" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Cobrança", "titulo": "Quem está devendo?", "texto": "Se a resposta está numa planilha, ela já está atrasada." },
+    { "tipo": "tipografia", "rotulo": "A conta", "titulo": "Sessão realizada + pagamento recebido.", "texto": "A conta fecha sozinha." },
+    { "tipo": "captura", "rotulo": "No Dr.Sig", "captura": "cobranca-demonstracao", "titulo": "Em aberto, por pessoa.", "texto": "O app cruza as sessões realizadas com o que entrou e mostra o dia previsto." },
+    { "tipo": "destaque", "rotulo": "WhatsApp ou e-mail", "titulo": "Escreva uma vez.", "etiqueta": "Mensagem de cobrança", "valor": "Olá, [nome]. Segue o valor das sessões de [mês]…", "texto": "A cobrança sai com o texto que você escreveu uma vez, com nome e valor preenchidos." },
+    { "tipo": "captura", "rotulo": "Entradas", "captura": "entradas-demonstracao", "titulo": "Previsto, recebido, o que falta.", "texto": "Por dia, semana ou mês." },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

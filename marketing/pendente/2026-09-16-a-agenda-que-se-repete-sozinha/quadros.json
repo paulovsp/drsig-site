@@ -1,0 +1,11 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Agenda", "ilustracao": "calendario", "titulo": "Você remarca a mesma sessão toda semana?", "texto": "A agenda do consultório não é agenda de compromissos. É horário fixo." },
+    { "tipo": "tipografia", "rotulo": "A ideia", "titulo": "Horário fixo. A semana se monta sozinha.", "texto": "" },
+    { "tipo": "captura", "rotulo": "No Dr.Sig", "captura": "agenda-semanal-demonstracao", "titulo": "Cada analisante tem o seu horário.", "texto": "A agenda se repete a partir dele. Falta e cancelamento ficam registrados." },
+    { "tipo": "cartoes", "rotulo": "O que a agenda sabe", "titulo": "Três estados, três contas.", "cartoes": [ { "titulo": "Realizada", "texto": "Entra na cobrança do mês e pede registro." }, { "titulo": "Falta", "texto": "Contabilizada na frequência; cobra ou não, você decide." }, { "titulo": "Cancelada", "texto": "Fica no histórico, fora da cobrança." } ] },
+    { "tipo": "lista", "rotulo": "Sem você fazer nada", "titulo": "O que sai disso.", "itens": ["A sessão aparece para registrar", "A falta é contabilizada", "**A cobrança do mês fecha**", "O relatório de frequência existe"] },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

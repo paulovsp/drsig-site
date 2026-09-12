@@ -1,0 +1,12 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Gravação", "ilustracao": "cadeado", "titulo": "Gravar a sessão precisa de autorização?", "texto": "Precisa. Explícita, e antes da primeira gravação." },
+    { "tipo": "tipografia", "rotulo": "A regra", "titulo": "Consentimento é documento, não conversa.", "texto": "\"Ela disse que tudo bem\" não se apresenta a ninguém." },
+    { "tipo": "lista", "rotulo": "O que a autorização precisa dizer", "titulo": "Quatro coisas.", "itens": ["O que será gravado: **o áudio da sessão**", "Para quê: a transcrição vai para o seu registro", "Quem acessa: **só você**", "Que pode ser retirada a qualquer momento"] },
+    { "tipo": "destaque", "rotulo": "No Dr.Sig", "titulo": "Sem autorização, o app não grava.", "etiqueta": "Antes de gravar", "valor": "Autorização necessária", "texto": "O botão de gravar fica bloqueado até a analisante responder." },
+    { "tipo": "captura", "rotulo": "Na ficha", "captura": "analisante-ficha-demonstracao", "titulo": "Um toque manda o e-mail.", "texto": "A analisante confirma pelo próprio e-mail, e a ficha guarda a resposta com a data." },
+    { "tipo": "icone", "rotulo": "Sigilo", "ilustracao": "cadeado", "titulo": "Só você lê os registros do seu consultório.", "texto": "Cada consultório fica isolado no banco de dados." },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

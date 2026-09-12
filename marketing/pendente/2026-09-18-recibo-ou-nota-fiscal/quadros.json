@@ -1,0 +1,11 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Fiscal", "ilustracao": "papeis", "titulo": "Recibo ou nota fiscal?", "texto": "Depende de uma coisa só: você tem CNPJ?" },
+    { "tipo": "cartoes", "rotulo": "A resposta", "titulo": "Uma pergunta decide.", "cartoes": [ { "titulo": "Sem CNPJ", "texto": "Recibo de prestação de serviços. Vale para o IR da analisante." }, { "titulo": "Com CNPJ", "texto": "Nota fiscal de serviço, pela prefeitura. Substitui o recibo." } ] },
+    { "tipo": "lista", "rotulo": "Os dois precisam ter", "titulo": "Cinco coisas.", "itens": ["Seu nome, CPF ou CNPJ e CRP", "Nome e **CPF de quem pagou**", "Valor e período", "\"Prestação de serviços de psicoterapia\"", "Data"] },
+    { "tipo": "tipografia", "rotulo": "Sigilo", "titulo": "Nada de diagnóstico no documento fiscal.", "texto": "Nem CID, nem conteúdo clínico. O sigilo continua valendo nele." },
+    { "tipo": "captura", "rotulo": "No Dr.Sig", "captura": "fiscal-demonstracao", "titulo": "Recibo ou Nota, por analisante.", "texto": "Um toque emite. \"Automático\" emite todo mês sozinho e manda a cópia para o contador." },
+    { "tipo": "fecho", "texto": "Texto completo no blog · link na bio" }
+  ]
+}

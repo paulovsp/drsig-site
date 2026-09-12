@@ -6,8 +6,9 @@ funcao_do_app: Registros por sessão e Exportar meus dados
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-cinco-anos-de-guarda
-estado: pendente
+estado: aprovado (12/09/2026)
 arte: pronta (6 quadros)
+publicar_em: 2026-09-15
 ---
 
 # Quadros

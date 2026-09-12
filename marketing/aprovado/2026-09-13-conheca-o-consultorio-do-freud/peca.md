@@ -6,8 +6,9 @@ funcao_do_app: Demonstração (entrar sem criar conta)
 objetivo: instalações e cadastros com origem instagram
 chamada: Abrir a demonstração (Google Play, link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-consultorio-do-freud
-estado: pendente
+estado: aprovado (12/09/2026)
 arte: pronta (6 quadros)
+publicar_em: 2026-09-13
 ---
 
 # Quadros

@@ -6,8 +6,9 @@ funcao_do_app: Cobrança (sessões realizadas × pagamentos; mensagem por WhatsA
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-quem-esta-devendo
-estado: pendente
+estado: aprovado (12/09/2026)
 arte: pronta (6 quadros)
+publicar_em: 2026-09-17
 ---
 
 # Quadros

@@ -6,8 +6,9 @@ funcao_do_app: Fiscal (Recibo ou Nota por analisante; emissão automática; cóp
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Texto completo no blog (link na bio)
 link: https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html?utm_source=instagram&utm_campaign=2026-09-recibo-ou-nota
-estado: pendente
+estado: aprovado (12/09/2026)
 arte: pronta (6 quadros)
+publicar_em: 2026-09-18
 ---
 
 # Quadros

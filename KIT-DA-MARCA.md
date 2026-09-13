@@ -84,8 +84,8 @@ dados de gente real (só a demonstração do Freud).
 |---|---|---|
 | Site | https://drsig.com.br | no ar |
 | Blog | https://drsig.com.br/blog/ | no ar |
-| Instagram | @oseusig | existe; o "link na bio" aponta para o site |
-| Facebook | página do Dr.Sig | existe |
+| Instagram | @oseusig (nome de exibição "Dr.Sig") | conta profissional; foto = ícone do app; bio e link para o site definidos em 12/09; publicação automática ligada |
+| Facebook | Página "Dr. Sig", facebook.com/1384031781450259 | criada em 12/09 pela conta "DrSig Assistente Clinico"; foto, capa e bio no kit; publicação automática ligada; nome ainda com espaço |
 | E-mail | drsig@drsig.com.br | caixa no UOL; remetente e `reply_to` de todo e-mail do app |
 | LinkedIn | — | página ainda não criada |
 

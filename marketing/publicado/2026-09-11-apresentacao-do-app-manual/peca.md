@@ -5,7 +5,7 @@ tema: apresentação do app, tela a tela
 funcao_do_app: todas (Início, Clínica, Analisantes, Nova Sessão, Autorização, Registros, Relatórios, Perfil, Configurações, Exportar)
 objetivo: apresentação da conta
 chamada: "Arraste para conhecer" (no primeiro quadro)
-link: nenhum (posts sem legenda)
+link: nenhum (legendas em legendas.md, a colar pelo dono)
 estado: publicado
 origem: manual — postado pelo dono no app do Instagram, fora do fluxo dos agentes
 publicado_em: 2026-09-11

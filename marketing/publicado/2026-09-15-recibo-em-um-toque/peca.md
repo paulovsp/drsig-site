@@ -13,6 +13,8 @@ publicado_em: 2026-09-12
 instagram: https://www.instagram.com/p/DdMDJ7jkQCQ/
 facebook: https://www.facebook.com/122107358865466353/posts/122107331505466353
 facebook_id: 1384031781450259_122107331505466353
+apagada_facebook_em: 2026-09-14
+instagram_apagar: pendente (dono)
 substituida_por: aprovado/2026-09-14-recibo-em-um-toque-v2 (apagar no Facebook pela op-agente e no Instagram pelo dono, depois que a v2 sair em 14/09)
 ---
 

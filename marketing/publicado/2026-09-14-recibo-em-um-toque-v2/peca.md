@@ -10,6 +10,10 @@ substitui: publicado/2026-09-15-recibo-em-um-toque (a versão de 12/09 não most
 estado: aprovado (13/09/2026, pedido do dono: refazer com a rubrica)
 arte: pronta (8 quadros)
 publicar_em: 2026-09-14
+publicado_em: 2026-09-14
+instagram: https://www.instagram.com/p/DdRN9YqlLCX/
+facebook: https://www.facebook.com/122107358865466353/posts/122109434661466353
+facebook_id: 1384031781450259_122109434661466353
 ---
 
 # Quadros

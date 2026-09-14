@@ -9,6 +9,10 @@ link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-autorizaca
 estado: aprovado (12/09/2026)
 arte: pronta (7 quadros)
 publicar_em: 2026-09-14
+publicado_em: 2026-09-14
+instagram: https://www.instagram.com/p/DdRN1XcjkP5/
+facebook: https://www.facebook.com/122107358865466353/posts/122109433335466353
+facebook_id: 1384031781450259_122109433335466353
 ---
 
 # Quadros

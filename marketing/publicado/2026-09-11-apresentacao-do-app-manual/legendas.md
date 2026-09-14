@@ -1,13 +1,12 @@
 # Legendas dos 12 posts de 11/09
 
-Os doze posts saíram sem legenda. A decisão de 13/09: manter os doze posts
-e dar legenda a cada um. A API da Meta não edita legenda de post
-publicado, então o dono cola cada bloco abaixo à mão, no app do Instagram
-(abrir o post → menu → Editar → colar → salvar).
-
-Cada legenda funciona sozinha: quem chega por um post não viu os outros.
-Só o 1/12 (o impulsionado) e o 12/12 convidam a ver a série no perfil.
-Nenhuma leva URL — o link fica na bio.
+**Decisão revista em 13/09 (dono: "finalizar o Instagram").** Ficam só o
+**1/12** (o impulsionado), que recebe a legenda abaixo, e um carrossel novo
+com as mesmas dez telas e legenda, que o Publicador publica em 15/09
+(`aprovado/2026-09-15-apresentacao-do-app`). Os outros **onze posts (2/12 a
+12/12) o dono apaga no app do Instagram** depois que o carrossel sair, porque
+a API da Meta não apaga nem edita post do Instagram. As legendas de 2 a 12
+abaixo ficam como registro do texto; não precisam mais ser coladas.
 
 ---
 

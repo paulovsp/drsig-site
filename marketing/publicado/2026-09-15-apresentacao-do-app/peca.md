@@ -10,6 +10,10 @@ substitui: publicado/2026-09-11-apresentacao-do-app-manual (os doze posts soltos
 estado: aprovado (13/09/2026, decisão do dono: "finalizar o Instagram")
 arte: pronta (10 quadros — as imagens dos posts de 11/09, quadros 1 a 9 e 11; o 10 e o 12 ficaram de fora)
 publicar_em: 2026-09-15
+publicado_em: 2026-09-15
+instagram: https://www.instagram.com/p/DdTyC-mDy1_/
+facebook: https://www.facebook.com/122107358865466353/posts/122110314069466353
+facebook_id: 1384031781450259_122110314069466353
 ---
 
 # Quadros

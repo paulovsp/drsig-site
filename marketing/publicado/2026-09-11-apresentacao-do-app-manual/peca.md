@@ -10,6 +10,8 @@ estado: publicado
 origem: manual — postado pelo dono no app do Instagram, fora do fluxo dos agentes
 publicado_em: 2026-09-11
 impulsionado: sim — quadro 1/12 (https://www.instagram.com/p/DdIj81oO8SG/), R$ 30 de 11 a 14/09, público "psi"; parciais em marketing/gastos/2026-09.md
+substituida_por: publicado/2026-09-15-apresentacao-do-app (carrossel único, saiu em 15/09/2026)
+instagram_apagar: pendente (dono) — quadros 2/12 a 12/12 (fica só o 1/12, impulsionado)
 ---
 
 # O que saiu

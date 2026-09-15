@@ -9,6 +9,10 @@ link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-cinco-anos
 estado: aprovado (12/09/2026)
 arte: pronta (6 quadros)
 publicar_em: 2026-09-15
+publicado_em: 2026-09-15
+instagram: https://www.instagram.com/p/DdTyKa_FN-n/
+facebook: https://www.facebook.com/122107358865466353/posts/122110315431466353
+facebook_id: 1384031781450259_122110315431466353
 ---
 
 # Quadros

@@ -1,0 +1,16 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "rotulo": "Domingo, 22h", "ilustracao": "papeis", "titulo": "Quantas sessões desta semana ainda estão sem registro?", "texto": "A pergunta difícil não é o que aconteceu na terça — é quais faltam." },
+    { "tipo": "tipografia", "titulo": "O registro não atrasa por preguiça.", "texto": "Atrasa por volume." },
+    { "tipo": "lista", "rotulo": "O que se perde", "titulo": "Entre a sessão e o registro", "itens": ["Qual dia foi, e quem faltou", "O que você quis anotar e deixou para depois", "A sessão que você jurava ter registrado", "A frase que só voltaria se estivesse escrita"] },
+    { "tipo": "cartoes", "rotulo": "Onde isso costuma ficar", "titulo": "Caderno, arquivo ou app", "cartoes": [
+      { "titulo": "Caderno", "texto": "Tudo junto, sem data por sessão, e a busca é o dedo." },
+      { "titulo": "Arquivo no computador", "texto": "Um por pessoa, se você lembrar de abrir." },
+      { "titulo": "No app", "texto": "Cada sessão com data, na ficha de quem você atende.", "principal": true }
+    ] },
+    { "tipo": "captura", "rotulo": "No Dr.Sig", "captura": "analisante-sessoes-demonstracao", "titulo": "Ficam à vista.", "texto": "Anotadas e transcritas, com data. (Consultório de demonstração do Freud.)" },
+    { "tipo": "icone", "ilustracao": "cadeado", "titulo": "Gravar é opcional", "texto": "Depende de autorização do analisante por e-mail; sem confirmação, o app não grava. Cada consultório fica isolado no banco de dados." },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

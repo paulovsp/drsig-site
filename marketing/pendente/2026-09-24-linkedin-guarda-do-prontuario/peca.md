@@ -7,7 +7,7 @@ objetivo: cliques no artigo e cadastros com origem linkedin
 chamada: Ler o artigo
 link: https://drsig.com.br/blog/por-quanto-tempo-guardar-prontuario-psicologico.html?utm_source=linkedin&utm_campaign=2026-09-guarda-do-prontuario
 estado: pendente
-arte: 1 quadro a pedir (quarta)
+arte: pronta (1 quadro)
 depende_de: o artigo "Por quanto tempo guardar o prontuário psicológico?" precisa estar no ar antes — o post é o link dele
 observacao: a página do Dr.Sig no LinkedIn ainda não existe (pedido 2 do plano de setembro). Enquanto não existir, este texto não tem onde ser publicado.
 caracteres: 1.010

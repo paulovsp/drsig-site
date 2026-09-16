@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-perguntar-em-vez-de-procurar
 estado: pendente
-arte: a pedir (quarta)
+arte: pronta (7 quadros)
 ---
 
 # Quadros

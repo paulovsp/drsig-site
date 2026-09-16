@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-autorizacao-do-comeco-ao-fim
 estado: pendente
-arte: capa a pedir (quarta); o vídeo é gravação de tela da demonstração, feita pelo dono
+arte: capa pronta (1 quadro); o vídeo é gravação de tela da demonstração, feita pelo dono — capturas pendentes: nova-sessao-autorizacao
 duracao: 42 s
 ---
 

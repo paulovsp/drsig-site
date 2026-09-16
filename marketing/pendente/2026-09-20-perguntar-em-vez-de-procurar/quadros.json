@@ -1,0 +1,12 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "ilustracao": "campo", "titulo": "“Em que sessões ela falou do pai?”", "texto": "Você sabe que está escrito. Não sabe onde." },
+    { "tipo": "tipografia", "titulo": "Procurar é abrir ficha por ficha.", "texto": "Perguntar é uma linha." },
+    { "tipo": "destaque", "rotulo": "Busca Dr.Sig", "titulo": "Você pergunta", "etiqueta": "Pergunta", "valor": "O que mudou no Pequeno Hans desde junho?", "texto": "O exemplo é do consultório de demonstração do Freud — nenhum dado real." },
+    { "tipo": "lista", "rotulo": "Como funciona", "titulo": "A Busca Dr.Sig", "itens": ["Você marca na lista de quem ela pode ler", "Ela lê os registros dessas pessoas e responde citando as sessões", "O custo estimado aparece antes, e você confirma", "O crédito de IA já vem com a assinatura"] },
+    { "tipo": "icone", "ilustracao": "cadeado", "titulo": "O nome não vai junto", "texto": "Antes do envio, o nome vira um marcador genérico e a data de nascimento vira idade. Os provedores não treinam modelo com o seu material, e cada consultório fica isolado no banco." },
+    { "tipo": "lista", "rotulo": "O que ela não faz", "titulo": "Quem lê é você", "itens": ["Não interpreta", "Não diagnostica", "Não substitui supervisão", "**Encontra** o que você escreveu"] },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

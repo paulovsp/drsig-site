@@ -6,14 +6,10 @@ funcao_do_app: Fiscal (recibo em PDF assinado com a rubrica da profissional, env
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html?utm_source=instagram&utm_campaign=2026-09-recibo-ir
-substitui: publicado/2026-09-15-recibo-em-um-toque (a versão de 12/09 não mostrava a rubrica; apagar a antiga depois que esta sair)
-estado: aprovado (13/09/2026, pedido do dono: refazer com a rubrica)
+estado: aprovado (republicação no recomeço de 16/09/2026, pedido do dono)
 arte: pronta (8 quadros)
-publicar_em: 2026-09-14
-publicado_em: 2026-09-14
-instagram: https://www.instagram.com/p/DdRN9YqlLCX/
-facebook: https://www.facebook.com/122107358865466353/posts/122109434661466353
-facebook_id: 1384031781450259_122109434661466353
+publicar_em: 2026-09-22
+republicacao_de: instagram https://www.instagram.com/p/DdRN9YqlLCX/ · facebook https://www.facebook.com/122107358865466353/posts/122109434661466353 (id 1384031781450259_122109434661466353) — publicada em 2026-09-14, retirada no recomeço de 16/09/2026; só republicar se o post antigo do Instagram já não estiver no ar (midias_meta)
 ---
 
 # Quadros

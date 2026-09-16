@@ -6,13 +6,10 @@ funcao_do_app: Registros por sessão e Exportar meus dados
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-cinco-anos-de-guarda
-estado: aprovado (12/09/2026)
+estado: aprovado (republicação no recomeço de 16/09/2026, pedido do dono)
 arte: pronta (6 quadros)
-publicar_em: 2026-09-15
-publicado_em: 2026-09-15
-instagram: https://www.instagram.com/p/DdTyKa_FN-n/
-facebook: https://www.facebook.com/122107358865466353/posts/122110315431466353
-facebook_id: 1384031781450259_122110315431466353
+publicar_em: 2026-09-25
+republicacao_de: instagram https://www.instagram.com/p/DdTyKa_FN-n/ · facebook https://www.facebook.com/122107358865466353/posts/122110315431466353 (id 1384031781450259_122110315431466353) — publicada em 2026-09-15, retirada no recomeço de 16/09/2026; só republicar se o post antigo do Instagram já não estiver no ar (midias_meta)
 ---
 
 # Quadros

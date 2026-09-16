@@ -6,13 +6,10 @@ funcao_do_app: Autorização de gravação (e-mail à analisante; gravação blo
 objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-autorizacao-de-gravacao
-estado: aprovado (12/09/2026)
+estado: aprovado (republicação no recomeço de 16/09/2026, pedido do dono)
 arte: pronta (7 quadros)
-publicar_em: 2026-09-14
-publicado_em: 2026-09-14
-instagram: https://www.instagram.com/p/DdRN1XcjkP5/
-facebook: https://www.facebook.com/122107358865466353/posts/122109433335466353
-facebook_id: 1384031781450259_122109433335466353
+publicar_em: 2026-09-23
+republicacao_de: instagram https://www.instagram.com/p/DdRN1XcjkP5/ · facebook https://www.facebook.com/122107358865466353/posts/122109433335466353 (id 1384031781450259_122109433335466353) — publicada em 2026-09-14, retirada no recomeço de 16/09/2026; só republicar se o post antigo do Instagram já não estiver no ar (midias_meta)
 ---
 
 # Quadros

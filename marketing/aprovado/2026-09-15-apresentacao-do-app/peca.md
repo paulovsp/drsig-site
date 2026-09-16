@@ -6,14 +6,10 @@ funcao_do_app: todas (Início, Clínica, Analisantes, Nova Sessão, Autorizaçã
 objetivo: apresentação da conta; instalações e cadastros com origem instagram
 chamada: Conhecer o app sem criar conta (Google Play, link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-apresentacao
-substitui: publicado/2026-09-11-apresentacao-do-app-manual (os doze posts soltos de 11/09; ficam só o 1/12 impulsionado, com legenda, e este carrossel)
-estado: aprovado (13/09/2026, decisão do dono: "finalizar o Instagram")
+estado: aprovado (republicação no recomeço de 16/09/2026, pedido do dono)
 arte: pronta (10 quadros — as imagens dos posts de 11/09, quadros 1 a 9 e 11; o 10 e o 12 ficaram de fora)
-publicar_em: 2026-09-15
-publicado_em: 2026-09-15
-instagram: https://www.instagram.com/p/DdTyC-mDy1_/
-facebook: https://www.facebook.com/122107358865466353/posts/122110314069466353
-facebook_id: 1384031781450259_122110314069466353
+publicar_em: 2026-09-24
+republicacao_de: instagram https://www.instagram.com/p/DdTyC-mDy1_/ · facebook https://www.facebook.com/122107358865466353/posts/122110314069466353 (id 1384031781450259_122110314069466353) — publicada em 2026-09-15, retirada no recomeço de 16/09/2026; só republicar se o post antigo do Instagram já não estiver no ar (midias_meta)
 ---
 
 # Quadros

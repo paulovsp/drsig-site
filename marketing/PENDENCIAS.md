@@ -44,13 +44,21 @@ Posts soltos de 11/09 (feitos à mão):
 - [ ] 11/12 · https://www.instagram.com/p/DdIlXSJudhW/
 - [ ] 12/12 · https://www.instagram.com/p/DdIl6ySOWdN/
 
-### Facebook: apagar os 7 posts da Página (recomeço do zero)
+### Facebook: 2 avisos automáticos que a API não apaga (12/09)
 
-Não depende do dono: a op-agente apaga pela API (`apagar_facebook`). Uma rotina
-única na nuvem, criada em 16/09, faz isso e risca este item.
+A rotina de 16/09 apagou 5 dos 7 posts da Página pela `apagar_facebook`. Os
+outros 2 são avisos automáticos de troca de foto de capa/perfil (sem foto,
+sem texto) e a Meta recusou apagar: `(#200) This post wasn't created by the
+application` — a Graph API só deixa apagar post feito pela própria
+aplicação. Só o dono apaga, direto na Página (post → três pontos → excluir).
 
-- [ ] 5 posts com fotos (13 a 15/09) e 2 avisos automáticos de foto de capa/perfil (12/09)
+- [ ] Aviso de troca de foto (12/09, 18:20) · https://www.facebook.com/122107358865466353/posts/28373795205638104?substory_index=28373795205638104
+- [ ] Aviso de troca de foto (12/09, 18:15) · https://www.facebook.com/122107358865466353/posts/122107622577466353?substory_index=1803521420838613
 
 ## Feitas
 
-(nenhuma ainda)
+### Facebook: apagar os 7 posts da Página (recomeço do zero) — 16/09/2026
+
+5 de 7 apagados pela op-agente (`apagar_facebook`); os outros 2 (avisos
+automáticos de foto de capa/perfil) a API recusou — ver item aberto acima.
+Relatório: `marketing/publicador/2026-09-16-recomeco-facebook.md`.

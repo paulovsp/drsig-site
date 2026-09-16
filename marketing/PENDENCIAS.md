@@ -20,28 +20,17 @@ No celular: abrir o post, três pontos no alto à direita, "Excluir", confirmar.
 No computador (instagram.com logado): o mesmo caminho. O Instagram guarda o
 que foi excluído por 30 dias em "Excluídos recentemente".
 
-Carrosséis do sistema (12 a 15/09):
+Carrosséis do sistema (12 a 15/09) — 5 ainda no ar, 1 já apagado (conferido em 16/09):
 
 - [ ] Guarda de registros (15/09) · https://www.instagram.com/p/DdTyKa_FN-n/
 - [ ] Apresentação do app (15/09) · https://www.instagram.com/p/DdTyC-mDy1_/
 - [ ] Fiscal v2 com a rubrica (14/09) · https://www.instagram.com/p/DdRN9YqlLCX/
 - [ ] Gravação precisa de autorização (14/09) · https://www.instagram.com/p/DdRN1XcjkP5/
 - [ ] Consultório do Freud (13/09) · https://www.instagram.com/p/DdOoUbHjw_X/
-- [ ] Fiscal v1 sem a rubrica (12/09) · https://www.instagram.com/p/DdMDJ7jkQCQ/
 
-Posts soltos de 11/09 (feitos à mão):
+Posts soltos de 11/09 (feitos à mão) — 2 ainda no ar, 10 já apagados (conferido em 16/09):
 
 - [ ] 1/12 · https://www.instagram.com/p/DdIj81oO8SG/
-- [ ] 2/12 · https://www.instagram.com/p/DdIkKWGuNxM/
-- [ ] 3/12 · https://www.instagram.com/p/DdIkTXoOFU8/
-- [ ] 4/12 · https://www.instagram.com/p/DdIkbTWuley/
-- [ ] 5/12 · https://www.instagram.com/p/DdIkjsQO4Z3/
-- [ ] 6/12 · https://www.instagram.com/p/DdIkr1Zuj96/
-- [ ] 7/12 · https://www.instagram.com/p/DdIkyJrOx4a/
-- [ ] 8/12 · https://www.instagram.com/p/DdIk__6u5-h/
-- [ ] 9/12 · https://www.instagram.com/p/DdIlK__uESy/
-- [ ] 10/12 · https://www.instagram.com/p/DdIlR1yOd8B/
-- [ ] 11/12 · https://www.instagram.com/p/DdIlXSJudhW/
 - [ ] 12/12 · https://www.instagram.com/p/DdIl6ySOWdN/
 
 ### Facebook: 2 avisos automáticos que a API não apaga (12/09)
@@ -55,7 +44,37 @@ aplicação. Só o dono apaga, direto na Página (post → três pontos → excl
 - [ ] Aviso de troca de foto (12/09, 18:20) · https://www.facebook.com/122107358865466353/posts/28373795205638104?substory_index=28373795205638104
 - [ ] Aviso de troca de foto (12/09, 18:15) · https://www.facebook.com/122107358865466353/posts/122107622577466353?substory_index=1803521420838613
 
+### Instagram: peça de 16/09 não publicou (a Meta recusou a imagem 4x)
+
+`aprovado/2026-09-16-a-agenda-que-se-repete-sozinha` tinha `publicar_em:
+2026-09-16` mas as 4 tentativas de publicar (uma da rotina, três de
+conferência) voltaram o mesmo erro da Graph API: `Only photo or video can be
+accepted as media type. (código 9004/2207052)`. As seis imagens conferem como
+PNG válido quando buscadas à mão (`curl`); nada foi publicado (`midias_meta`
+não mostra o post). A peça ficou em `aprovado/` com a mesma data — decisão do
+dono: pedir para investigar por que a Meta recusa a busca da imagem
+(hospedagem/CDN de `drsig.com.br`) ou marcar `publicar_em` para outro dia
+depois de resolvido. Detalhe em `marketing/publicador/2026-09-16.md`.
+
 ## Feitas
+
+### Instagram: 11 dos 18 posts apagados (recomeço do zero) — 16/09/2026
+
+Achado pela conferência do dia (`midias_meta`), não registrado à mão: o Paulo
+já apagou pelo app antes desta rodada. Ficam abertos os 5 carrosséis do
+sistema e os posts 1/12 e 12/12 — ver item aberto acima.
+
+- [x] Fiscal v1 sem a rubrica (12/09) · https://www.instagram.com/p/DdMDJ7jkQCQ/
+- [x] 2/12 · https://www.instagram.com/p/DdIkKWGuNxM/
+- [x] 3/12 · https://www.instagram.com/p/DdIkTXoOFU8/
+- [x] 4/12 · https://www.instagram.com/p/DdIkbTWuley/
+- [x] 5/12 · https://www.instagram.com/p/DdIkjsQO4Z3/
+- [x] 6/12 · https://www.instagram.com/p/DdIkr1Zuj96/
+- [x] 7/12 · https://www.instagram.com/p/DdIkyJrOx4a/
+- [x] 8/12 · https://www.instagram.com/p/DdIk__6u5-h/
+- [x] 9/12 · https://www.instagram.com/p/DdIlK__uESy/
+- [x] 10/12 · https://www.instagram.com/p/DdIlR1yOd8B/
+- [x] 11/12 · https://www.instagram.com/p/DdIlXSJudhW/
 
 ### Facebook: apagar os 7 posts da Página (recomeço do zero) — 16/09/2026
 

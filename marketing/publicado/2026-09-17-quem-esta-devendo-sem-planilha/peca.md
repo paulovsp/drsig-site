@@ -9,6 +9,11 @@ link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-quem-esta-
 estado: aprovado (12/09/2026)
 arte: pronta (6 quadros)
 publicar_em: 2026-09-17
+publicado_em: 2026-09-17
+instagram: https://www.instagram.com/p/DdY7dzbl2s1/
+facebook: https://www.facebook.com/122107358865466353/posts/122111504493466353
+facebook_id: 1384031781450259_122111504493466353
+conferido: CAROUSEL_ALBUM · 6 quadros
 ---
 
 # Quadros

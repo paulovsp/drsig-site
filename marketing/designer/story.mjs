@@ -66,7 +66,7 @@ function html(freudB64) {
     <div class="moldura"><div><div>
       <div class="cartao-titulo">Onde encontrar</div>
       <div class="canal"><div class="k">Site</div><div class="v">drsig.com.br</div></div>
-      <div class="canal"><div class="k">App</div><div class="v">Google Play: Dr.Sig<small>iPhone a caminho</small></div></div>
+      <div class="canal"><div class="k">App</div><div class="v">Google Play: Dr.Sig<small>Em breve também na Apple Store</small></div></div>
       <div class="canal"><div class="k">Instagram</div><div class="v">@oseusig</div></div>
       <div class="canal"><div class="k">Facebook</div><div class="v">Página Dr. Sig</div></div>
       <div class="canal"><div class="k">E-mail</div><div class="v">drsig@drsig.com.br</div></div>

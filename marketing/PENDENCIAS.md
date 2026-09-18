@@ -20,18 +20,14 @@ No celular: abrir o post, três pontos no alto à direita, "Excluir", confirmar.
 No computador (instagram.com logado): o mesmo caminho. O Instagram guarda o
 que foi excluído por 30 dias em "Excluídos recentemente".
 
-Carrosséis do sistema (12 a 15/09) — 5 ainda no ar, 1 já apagado (conferido em 16/09):
+Carrosséis do sistema (12 a 15/09) — 4 ainda no ar, 2 já apagados (conferido em 18/09):
 
 - [ ] Guarda de registros (15/09) · https://www.instagram.com/p/DdTyKa_FN-n/
-- [ ] Apresentação do app (15/09) · https://www.instagram.com/p/DdTyC-mDy1_/
 - [ ] Fiscal v2 com a rubrica (14/09) · https://www.instagram.com/p/DdRN9YqlLCX/
 - [ ] Gravação precisa de autorização (14/09) · https://www.instagram.com/p/DdRN1XcjkP5/
 - [ ] Consultório do Freud (13/09) · https://www.instagram.com/p/DdOoUbHjw_X/
 
-Posts soltos de 11/09 (feitos à mão) — 2 ainda no ar, 10 já apagados (conferido em 16/09):
-
-- [ ] 1/12 · https://www.instagram.com/p/DdIj81oO8SG/
-- [ ] 12/12 · https://www.instagram.com/p/DdIl6ySOWdN/
+Posts soltos de 11/09 (feitos à mão) — 0 ainda no ar, 12 já apagados (conferido em 18/09).
 
 ### Facebook: 2 avisos automáticos que a API não apaga (12/09)
 
@@ -57,6 +53,16 @@ dono: pedir para investigar por que a Meta recusa a busca da imagem
 depois de resolvido. Detalhe em `marketing/publicador/2026-09-16.md`.
 
 ## Feitas
+
+### Instagram: mais 3 dos 18 posts apagados (recomeço do zero) — 18/09/2026
+
+Achado pela conferência do dia (`midias_meta`), não registrado à mão: o Paulo
+já apagou pelo app antes desta rodada. Ficam abertos os 4 carrosséis do
+sistema de 13 a 15/09 — ver item aberto acima.
+
+- [x] Apresentação do app (15/09) · https://www.instagram.com/p/DdTyC-mDy1_/
+- [x] 1/12 · https://www.instagram.com/p/DdIj81oO8SG/
+- [x] 12/12 · https://www.instagram.com/p/DdIl6ySOWdN/
 
 ### Instagram: 11 dos 18 posts apagados (recomeço do zero) — 16/09/2026
 

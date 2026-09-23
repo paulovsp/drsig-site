@@ -7,7 +7,7 @@ objetivo: cliques no artigo e cadastros com origem linkedin
 chamada: Ler o artigo
 link: https://drsig.com.br/blog/como-organizar-agenda-consultorio-psicologia.html?utm_source=linkedin&utm_campaign=2026-09-agenda-do-consultorio
 estado: pendente
-arte: a renderizar (1 quadro)
+arte: pronta (1 quadro)
 depende_de: o artigo "Como organizar a agenda de um consultório de psicologia" precisa estar no ar antes — o post é o link dele
 observacao: a página do Dr.Sig no LinkedIn ainda não existe (pedido 2 do plano de setembro). Enquanto não existir, este texto não tem onde ser publicado.
 caracteres: 1.192

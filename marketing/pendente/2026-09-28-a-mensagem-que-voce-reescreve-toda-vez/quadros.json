@@ -1,0 +1,16 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "ilustracao": "envelope", "titulo": "Todo mês você escreve a mesma mensagem.", "texto": "E toda vez ela sai um pouco diferente." },
+    { "tipo": "tipografia", "titulo": "Cobrar não é o difícil.", "texto": "Difícil é escrever \"lembrando da contribuição deste mês\" pela nona vez sem soar diferente da oitava." },
+    { "tipo": "destaque", "rotulo": "Em Meu Perfil › Mensagens personalizadas", "titulo": "No Dr.Sig o texto é seu, escrito uma vez.", "etiqueta": "Entram sozinhos", "valor": "{{nome}} · {{valor}} · {{dia_pagamento}} · {{chave_pix}}" },
+    { "tipo": "icone", "ilustracao": "toque", "titulo": "A chave Pix entra do seu perfil.", "texto": "Você não digita a chave toda vez, e não manda a chave errada uma vez por ano." },
+    { "tipo": "captura", "rotulo": "Em Cobrança", "captura": "cobranca-demonstracao", "titulo": "Você vê o mês.", "texto": "Quem paga em que dia, o que já foi recebido, o que está em aberto. O lembrete sai dali, por WhatsApp ou e-mail. (Consultório de demonstração do Freud.)" },
+    { "tipo": "lista", "titulo": "Se preferir, não escreva nada", "itens": [
+      "O texto padrão do Dr.Sig é sóbrio e serve como está",
+      "Quem decide quando enviar é sempre você",
+      "O app não fala com o seu analisante sozinho"
+    ] },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

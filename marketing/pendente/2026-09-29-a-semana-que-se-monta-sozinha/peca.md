@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-a-semana-que-se-monta-sozinha
 estado: pendente
-arte: capa a renderizar; **vídeo depende de gravação de tela do dono** (conta de demonstração)
+arte: capa pronta (1 quadro); **vídeo depende de gravação de tela do dono** (conta de demonstração)
 duracao: 38 s
 ---
 

@@ -1,0 +1,23 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "ilustracao": "calendario", "titulo": "Ela desmarcou às 8h55. A sessão era às 9h.", "texto": "Isso é falta ou cancelamento?" },
+    { "tipo": "tipografia", "titulo": "A diferença não é de palavra.", "texto": "É de dinheiro — e de clínica." },
+    { "tipo": "cartoes", "titulo": "O que separa os dois", "cartoes": [
+      { "titulo": "Falta", "texto": "Não veio, não avisou a tempo." },
+      { "titulo": "Cancelamento", "texto": "Desmarcou dentro do combinado." },
+      { "titulo": "A regra é do seu consultório", "texto": "Combinada no contrato terapêutico — não o app.", "principal": true }
+    ] },
+    { "tipo": "lista", "titulo": "No Dr.Sig o app pergunta, em vez de decidir.", "itens": [
+      "Horário futuro que você cancela: **\"essa sessão é cobrada?\"**",
+      "Horário que já passou sem confirmação: **\"foi cancelada ou falta?\"**"
+    ] },
+    { "tipo": "captura", "rotulo": "No Dr.Sig", "captura": "agenda-semanal-demonstracao", "titulo": "A resposta fica registrada.", "texto": "Falta é cobrável; cancelada não é. (Consultório de demonstração do Freud.)" },
+    { "tipo": "lista", "titulo": "O que isso destrava", "itens": [
+      "A cobrança do mês fecha sozinha",
+      "A frequência vira relatório, não memória",
+      "O intervalo de dois meses no meio da série tem explicação escrita"
+    ] },
+    { "tipo": "fecho", "texto": "Link na bio" }
+  ]
+}

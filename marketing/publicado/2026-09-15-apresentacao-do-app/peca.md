@@ -9,6 +9,11 @@ link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-09-apresentac
 estado: aprovado (republicação no recomeço de 16/09/2026, pedido do dono)
 arte: pronta (10 quadros — as imagens dos posts de 11/09, quadros 1 a 9 e 11; o 10 e o 12 ficaram de fora)
 publicar_em: 2026-09-24
+publicado_em: 2026-09-24
+instagram: https://www.instagram.com/p/Ddq9DDSDFbL/
+facebook: https://www.facebook.com/122107358865466353/posts/122115772287466353
+facebook_id: 1384031781450259_122115772287466353
+conferido: CAROUSEL_ALBUM/ALBUM · 10 quadros
 republicacao_de: instagram https://www.instagram.com/p/DdTyC-mDy1_/ · facebook https://www.facebook.com/122107358865466353/posts/122110314069466353 (id 1384031781450259_122110314069466353) — publicada em 2026-09-15, retirada no recomeço de 16/09/2026; só republicar se o post antigo do Instagram já não estiver no ar (midias_meta)
 ---
 

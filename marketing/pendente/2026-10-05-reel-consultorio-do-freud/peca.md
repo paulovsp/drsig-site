@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-10-reel-consultorio-do-freud
 estado: pendente
-arte: capa a produzir (1 quadro); o corpo é gravação de tela
+arte: capa pronta (1 quadro); o corpo é gravação de tela da demonstração, feita pelo dono
 duracao: 42 s
 ---
 

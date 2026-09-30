@@ -1,0 +1,49 @@
+{
+  "quadros": [
+    {
+      "tipo": "capa",
+      "ilustracao": "campo",
+      "titulo": "Você sabe quanto entrou. Sabe quanto saiu?"
+    },
+    {
+      "tipo": "tipografia",
+      "titulo": "A conta de cima todo mundo faz. A de baixo mora no extrato."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "As categorias de Saídas",
+      "itens": [
+        "Aluguel",
+        "Contas",
+        "Assinaturas",
+        "Análise pessoal",
+        "Supervisão",
+        "Cursos",
+        "Outros"
+      ]
+    },
+    {
+      "tipo": "destaque",
+      "titulo": "Marcada uma vez, contada todo mês",
+      "etiqueta": "Despesa recorrente",
+      "valor": "Aluguel da sala"
+    },
+    {
+      "tipo": "captura",
+      "captura": "saidas-demonstracao",
+      "texto": "Consultório de demonstração do Freud"
+    },
+    {
+      "tipo": "cartoes",
+      "titulo": "No mesmo lugar",
+      "cartoes": [
+        { "titulo": "Entradas", "texto": "previsto e recebido, por analisante" },
+        { "titulo": "Saídas", "texto": "o que o consultório custa", "principal": true }
+      ]
+    },
+    {
+      "tipo": "fecho",
+      "texto": "Link na bio"
+    }
+  ]
+}

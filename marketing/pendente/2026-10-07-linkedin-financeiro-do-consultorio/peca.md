@@ -7,7 +7,7 @@ objetivo: alcance profissional — cadastros com origem outro/linkedin
 chamada: Ler o artigo
 link: https://drsig.com.br/blog/como-organizar-o-financeiro-do-consultorio-de-psicologia.html?utm_source=linkedin&utm_campaign=2026-10-financeiro-do-consultorio
 estado: pendente
-arte: a produzir (1 quadro)
+arte: pronta (1 quadro)
 bloqueios: depende da página do Dr.Sig no LinkedIn (ainda não existe) e do artigo estar no ar
 caracteres: 1.200
 ---

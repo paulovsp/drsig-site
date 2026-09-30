@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-10-a-lista-que-some-entre-uma-sessao-e-outra
 estado: pendente
-arte: a produzir (7 quadros)
+arte: pronta (7 quadros), captura pendente: inicio-afazeres-demonstracao
 ---
 
 # Quadros

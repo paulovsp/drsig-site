@@ -37,3 +37,4 @@ Todos os arquivos terminam em `-demonstracao.png`.
 - `perfil-notificacoes` — Meu Perfil: notificações (app / e-mail)
 - `saidas` — Saídas do mês
 - `agenda-diaria` — Agenda, visão diária
+- `inicio-afazeres` — Início, aba com o quadro de Afazeres visível

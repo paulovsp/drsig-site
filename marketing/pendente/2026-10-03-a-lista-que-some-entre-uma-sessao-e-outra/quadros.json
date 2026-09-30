@@ -1,0 +1,43 @@
+{
+  "quadros": [
+    {
+      "tipo": "capa",
+      "ilustracao": "papeis",
+      "titulo": "Entre uma sessão e outra, quatro coisas para lembrar"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "O que não cabe na agenda",
+      "itens": [
+        "Ligar para o convênio",
+        "Confirmar a supervisão",
+        "Responder o e-mail de terça",
+        "Comprar papel"
+      ]
+    },
+    {
+      "tipo": "tipografia",
+      "titulo": "Três lugares para anotar. Nenhum deles aberto na hora em que você lembra."
+    },
+    {
+      "tipo": "icone",
+      "ilustracao": "toque",
+      "titulo": "Afazeres: o novo entra no topo"
+    },
+    {
+      "tipo": "destaque",
+      "titulo": "Marcar como feito não desmancha a lista",
+      "etiqueta": "Feito",
+      "valor": "confirmar a supervisão de quinta"
+    },
+    {
+      "tipo": "captura",
+      "captura": "inicio-afazeres-demonstracao",
+      "texto": "Consultório de demonstração do Freud"
+    },
+    {
+      "tipo": "fecho",
+      "texto": "Link na bio"
+    }
+  ]
+}

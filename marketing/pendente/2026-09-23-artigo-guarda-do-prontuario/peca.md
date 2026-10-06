@@ -10,9 +10,10 @@ slug: por-quanto-tempo-guardar-prontuario-psicologico
 categoria: Registros
 titulo: Por quanto tempo guardar o prontuário psicológico?
 meta_description: Cinco anos, contados do último atendimento. O que entra no prontuário, onde guardar, quando descartar e o que fazer se você parar de atender.
-palavras: 1000
-minutos: 5
+palavras: 1160
+minutos: 6
 estado: pendente
+revisao: 06/10/2026 — acrescentado o parágrafo sobre a Lei 13.787/2018 (pedido do plano de outubro, tema 2)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 
@@ -31,6 +32,8 @@ Alguns prazos correm em paralelo e podem ser mais longos:
 - **Guarda fiscal.** Recibos, notas e o registro de pagamentos seguem a regra tributária, não a do conselho. O prazo usual de cinco anos para a Receita Federal conta a partir de outro marco — o do exercício fiscal —, então na prática as duas pilhas não vencem no mesmo dia.
 - **Atendimento de criança ou adolescente.** Quando há discussão sobre guarda, violência ou medida protetiva, os prazos relevantes costumam ser bem maiores do que cinco anos, e o material pode ser requisitado muito depois.
 - **Processo em curso.** Se existe processo judicial ou ético envolvendo o atendimento, o material se guarda até o fim dele, mesmo que o prazo do conselho já tenha passado.
+
+E um número que você vai encontrar sozinha, procurando sobre isso: **os vinte anos da Lei 13.787/2018 não são o seu prazo**. Essa lei trata da digitalização e da eliminação do *prontuário de paciente* mantido por serviços e estabelecimentos de saúde, e é de lá que vem o "prazo mínimo de 20 anos a partir do último registro" antes que o prontuário possa ser eliminado. O que rege o registro documental do psicólogo em consultório é a Resolução CFP 001/2009, com os cinco anos. Os dois convivem: se você atende dentro de uma instituição que mantém prontuário de paciente, o que você escreve naquele prontuário segue a regra da instituição — mas o seu registro, no seu consultório, é o de cinco anos como mínimo.
 
 Isto não é parecer jurídico. Para um caso concreto — um pedido de perícia, uma requisição judicial — quem responde é o seu CRP.
 

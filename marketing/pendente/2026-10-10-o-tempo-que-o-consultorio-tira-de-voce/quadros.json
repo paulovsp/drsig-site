@@ -1,0 +1,19 @@
+{
+  "formato": "1080x1350",
+  "quadros": [
+    { "tipo": "capa", "ilustracao": "papeis", "rotulo": "10 DE OUTUBRO", "titulo": "A sessão termina às 15h50. O seu trabalho, não." },
+    { "tipo": "tipografia", "titulo": "Hoje todo mundo vai dizer para você se cuidar.", "texto": "Vamos falar da outra parte — a que não é a escuta." },
+    { "tipo": "lista", "titulo": "O que fica pendurado numa semana comum", "itens": [
+      "O recibo que pediram",
+      "O horário que mudou",
+      "A mensagem sem resposta",
+      "O registro a escrever antes de esquecer",
+      "O caso a levar à supervisão",
+      "A sua própria supervisão a pagar"
+    ] },
+    { "tipo": "tipografia", "titulo": "Não é tarefa de escritório. É trabalho clínico que sobrou sem lugar.", "texto": "E, sem lugar, mora na sua cabeça." },
+    { "tipo": "destaque", "titulo": "A lista dentro do consultório", "etiqueta": "Afazeres", "valor": "Novo afazer...", "texto": "Item novo entra no topo. A ordem é a que você monta arrastando. O que está feito fica onde está, riscado." },
+    { "tipo": "captura", "captura": "registro-supervisao-demonstracao", "titulo": "A supervisão também é trabalho" },
+    { "tipo": "fecho", "texto": "O Dr.Sig não cuida de você. Ele tira da sua cabeça a parte do trabalho que não é a escuta. Link na bio." }
+  ]
+}

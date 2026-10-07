@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-10-reel-afazeres
 estado: pendente
-arte: capa a renderizar na quarta (1 quadro); o corpo é gravação de tela, feita pelo dono
+arte: capa pronta (1 quadro); o corpo é gravação de tela, feita pelo dono
 duracao: 38 s
 depende_de: gravação de tela na conta de demonstração — a quarta da fila (com os três Reels já parados)
 ---

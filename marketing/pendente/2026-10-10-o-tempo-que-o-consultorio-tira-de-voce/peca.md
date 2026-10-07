@@ -7,7 +7,7 @@ objetivo: cliques no link e cadastros com origem instagram
 chamada: Conhecer o app (link na bio)
 link: https://drsig.com.br/?utm_source=instagram&utm_campaign=2026-10-o-tempo-que-o-consultorio-tira-de-voce
 estado: pendente
-arte: a renderizar na quarta (7 quadros); todas as capturas pedidas já existem
+arte: pronta (7 quadros)
 data_sugerida: 10/10 — a peça é escrita para o Dia Mundial da Saúde Mental e perde o gancho em outro dia
 ---
 

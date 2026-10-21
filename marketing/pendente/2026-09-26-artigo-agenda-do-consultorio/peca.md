@@ -13,6 +13,7 @@ meta_description: Horário fixo em vez de remarcação semanal, o que fazer com 
 palavras: 1180
 minutos: 6
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 

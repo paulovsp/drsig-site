@@ -13,6 +13,7 @@ meta_description: As quatro perguntas que o financeiro do consultório precisa r
 palavras: 1100
 minutos: 6
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 

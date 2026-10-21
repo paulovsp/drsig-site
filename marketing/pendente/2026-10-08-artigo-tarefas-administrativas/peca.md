@@ -13,6 +13,7 @@ meta_description: O que fica pendurado quando a sessão acaba, por que não cabe
 palavras: 1180
 minutos: 6
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 

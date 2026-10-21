@@ -13,6 +13,7 @@ meta_description: Gravar a sessão exige autorização do analisante. O que a au
 palavras: 1000
 minutos: 5
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 

@@ -13,6 +13,7 @@ meta_description: A Resolução CFP 09/2024 revogou a norma que criava o e-Psi. 
 palavras: 1264
 minutos: 6
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 fontes: Resolução CFP nº 9, de 18/07/2024 (publicada no DO em 30/07/2024; Art. 9º revoga as Resoluções CFP 11/2018 e 04/2020; Art. 10, vigência 30 dias após a publicação); orientação pública do CRP-24 sobre atendimento on-line, que afirma que a 09/2024 descontinuou o Cadastro e-Psi
 ---

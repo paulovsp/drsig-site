@@ -13,6 +13,7 @@ meta_description: A gravação não para por acaso. São quatro ajustes do Andro
 palavras: 1155
 minutos: 5
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 

@@ -13,6 +13,7 @@ meta_description: Cinco anos, contados do último atendimento. O que entra no pr
 palavras: 1160
 minutos: 6
 estado: pendente
+arte: sem arte (ver imagens.md)
 revisao: 06/10/2026 — acrescentado o parágrafo sobre a Lei 13.787/2018 (pedido do plano de outubro, tema 2)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---

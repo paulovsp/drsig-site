@@ -13,6 +13,7 @@ meta_description: O registro não é diário nem laudo. O que ele precisa respon
 palavras: 1207
 minutos: 6
 estado: pendente
+arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
 ---
 

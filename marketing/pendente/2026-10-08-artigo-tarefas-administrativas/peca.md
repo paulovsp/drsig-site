@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-10-tarefas-administrativas
 slug: tarefas-administrativas-consultorio-de-psicologia
 categoria: Rotina do consultório
+data_iso: 2026-10-08
 titulo: Como organizar as tarefas administrativas do consultório de psicologia
 meta_description: O que fica pendurado quando a sessão acaba, por que não cabe na agenda e como separar o que tem hora marcada do que não tem.
 palavras: 1180
@@ -79,3 +80,9 @@ A supervisão tem lugar nas duas pontas. No cadastro de uma pessoa você escolhe
 Hoje se fala muito em cuidar de quem cuida, e quase sempre a conversa vai para o descanso, a terapia pessoal e os limites — que são o assunto certo e não cabem num texto sobre organização de consultório.
 
 O que cabe é o pedaço mais prosaico do problema: boa parte do cansaço de quem atende sozinho não vem da escuta. Vem de carregar, fora do horário, uma lista que nunca foi escrita em lugar nenhum. Escrever a lista não resolve o cansaço. Mas tira da sua cabeça a parte do trabalho que não é a escuta — e essa parte, pelo menos, uma ferramenta consegue segurar.
+
+## Leia também
+
+- [Como organizar o financeiro de um consultório de psicologia](https://drsig.com.br/blog/como-organizar-o-financeiro-do-consultorio-de-psicologia.html) — A maior das tarefas administrativas tem artigo próprio: o financeiro do consultório, mês a mês.
+- [Como organizar a agenda de um consultório de psicologia](https://drsig.com.br/blog/como-organizar-agenda-consultorio-psicologia.html) — A segunda maior é a agenda, e ela é a que devolve mais tempo quando se organiza uma vez.
+- [Recibo de psicoterapia para o Imposto de Renda: o que precisa ter](https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html) — E a tarefa que tem prazo legal: o recibo que a analisante usa na declaração.

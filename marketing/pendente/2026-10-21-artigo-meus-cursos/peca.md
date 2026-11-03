@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-10-meus-cursos
 slug: como-organizar-formacao-continuada-cursos-carga-horaria-custo
 categoria: Formação continuada
+data_iso: 2026-10-21
 titulo: "Como organizar a sua formação continuada: cursos, carga horária e custo"
 meta_description: Certificado, custo e a hora da aula — três pendências que um curso deixa. Onde cada uma mora e como a carga horária se calcula sozinha.
 palavras: 1253
@@ -93,3 +94,8 @@ Sobre sigilo, porque a palavra "gravação" aparece aqui: o áudio e a transcri�
 - **No fim do ano:** a carga horária e o total gasto em formação já estão somados, cada um na sua tela.
 
 A formação continuada não precisa de um sistema. Precisa de um lugar — o mesmo lugar onde já está o resto do consultório.
+
+## Leia também
+
+- [Como organizar as tarefas administrativas do consultório de psicologia](https://drsig.com.br/blog/tarefas-administrativas-consultorio-de-psicologia.html) — Curso é uma das tarefas administrativas que ninguém agenda, e por isso some.
+- [Como organizar o financeiro de um consultório de psicologia](https://drsig.com.br/blog/como-organizar-o-financeiro-do-consultorio-de-psicologia.html) — O custo da formação é despesa do consultório, e entra no mesmo lugar das outras.

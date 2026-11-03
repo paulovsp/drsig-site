@@ -90,3 +90,8 @@ Sobre sigilo, porque aqui se fala de ficha e de cobrança de analisante: esses d
 - **Trinta dias antes:** envie o aviso, igual para todos, com valor novo e data.
 - **Na semana da virada:** feche o mês anterior, receba o que falta, e só então troque o valor em cada ficha.
 - **Depois:** anote a data. No ano que vem, a decisão já estará tomada — só o número muda.
+
+## Leia também
+
+- [Como organizar o financeiro de um consultório de psicologia](https://drsig.com.br/blog/como-organizar-o-financeiro-do-consultorio-de-psicologia.html) — Antes de mexer no preço, vale ter o mês fechando sozinho: como organizar o financeiro do consultório.
+- [Posso cobrar a sessão em que o analisante faltou?](https://drsig.com.br/blog/cobrar-sessao-falta-cancelamento-psicoterapia.html) — Reajuste e falta se encontram na mesma conta do mês, e é bom que a regra das duas já esteja combinada.

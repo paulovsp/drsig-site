@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-09-agenda-do-consultorio
 slug: como-organizar-agenda-consultorio-psicologia
 categoria: Agenda
+data_iso: 2026-09-26
 titulo: Como organizar a agenda de um consultório de psicologia
 meta_description: Horário fixo em vez de remarcação semanal, o que fazer com encaixe e falta, e por que cancelamento e falta não contam igual na cobrança.
 palavras: 1180
@@ -94,3 +95,7 @@ Nada disso exige um aplicativo. Exige que a estrutura esteja escrita em algum lu
 
 **Chamada — título:** A agenda do consultório, num lugar só
 **Chamada — texto:** Horário fixo por analisante, encaixe e remarcação sem desmontar a semana, falta e cancelamento registrados — e a cobrança do mês saindo disso. O Dr.Sig tem um consultório de demonstração para você percorrer antes de criar conta.
+
+## Leia também
+
+- [Posso cobrar a sessão em que o analisante faltou?](https://drsig.com.br/blog/cobrar-sessao-falta-cancelamento-psicoterapia.html) — A agenda montada responde pela semana cheia. A falta e o cancelamento em cima da hora pedem uma regra à parte, combinada antes.

@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-10-protecao-da-gravacao
 slug: por-que-a-gravacao-de-audio-para-sozinha-no-android
 categoria: Gravação e sigilo
+data_iso: 2026-10-22
 titulo: "Por que a gravação de áudio para sozinha no Android?"
 meta_description: A gravação não para por acaso. São quatro ajustes do Android que derrubam o áudio no meio — e um que nenhum app resolve. Onde conferir cada um.
 palavras: 1155
@@ -79,3 +80,7 @@ Sobre sigilo, porque aqui se fala de gravar sessão: gravar depende da **autoriz
 - **Antes de uma sessão longa:** se houver aviso na tela da sessão, ajuste antes de começar, não depois.
 - **Em aparelho Xiaomi, Samsung, Motorola, Huawei ou Oppo:** confira o gerenciador do fabricante, além do ajuste do Android.
 - **Durante a gravação:** chamadas silenciadas. É o único jeito de evitar o quinto motivo — e, se usar o modo avião, desligue-o antes de encerrar, porque é aí que o áudio sobe para transcrição.
+
+## Leia também
+
+- [Preciso de autorização para gravar a sessão de psicoterapia?](https://drsig.com.br/blog/autorizacao-para-gravar-sessao-de-psicoterapia.html) — Antes de resolver o aparelho, o combinado: como a autorização do analisante é pedida por e-mail e confirmada por ele.

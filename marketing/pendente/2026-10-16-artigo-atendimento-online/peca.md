@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-10-atendimento-online
 slug: cadastro-e-psi-atendimento-psicologico-online
 categoria: Atendimento online
+data_iso: 2026-10-16
 titulo: Preciso de cadastro no e-Psi para atender online?
 meta_description: A Resolução CFP 09/2024 revogou a norma que criava o e-Psi. O que o atendimento online exige hoje, e o que fazer com o registro da sessão.
 palavras: 1264
@@ -82,3 +83,8 @@ Duas honestidades sobre isso, ditas antes de você tentar conectar, na própria 
 - **Gravação é um ato autorizado**, não um efeito colateral da plataforma.
 
 Isto não é parecer jurídico. Os artigos citados são da Resolução CFP nº 9/2024, que vale a pena ler inteira — é curta. Para um caso concreto, quem responde é o seu CRP.
+
+## Leia também
+
+- [O que escrever no registro de uma sessão de psicoterapia](https://drsig.com.br/blog/o-que-escrever-no-registro-da-sessao-de-psicoterapia.html) — A sessão por vídeo se registra como qualquer outra — o que muda é onde ela fica guardada.
+- [Preciso de autorização para gravar a sessão de psicoterapia?](https://drsig.com.br/blog/autorizacao-para-gravar-sessao-de-psicoterapia.html) — Gravar a chamada depende da mesma autorização de sempre, pedida ao analisante antes.

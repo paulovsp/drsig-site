@@ -85,3 +85,10 @@ Sobre sigilo, porque aqui se fala de registro e dado de analisante: ficha, regis
 Depois da primeira sessão, uma mensagem com os seis itens — uma linha cada, com os seus números. Não precisa de linguagem de contrato nem de assinatura; precisa de clareza e de data.
 
 É o documento mais barato do seu consultório, e o único que evita conversa difícil antes de ela existir.
+
+## Leia também
+
+- [Posso cobrar a sessão em que o analisante faltou?](https://drsig.com.br/blog/cobrar-sessao-falta-cancelamento-psicoterapia.html) — O item do combinado que mais gera conflito depois: a sessão que não aconteceu.
+- [Como reajustar o valor da sessão de psicoterapia](https://drsig.com.br/blog/como-reajustar-o-valor-da-sessao-de-psicoterapia.html) — O segundo item: o valor, e o que fazer quando ele precisa mudar.
+- [Preciso de autorização para gravar a sessão de psicoterapia?](https://drsig.com.br/blog/autorizacao-para-gravar-sessao-de-psicoterapia.html) — Se a gravação entrar no combinado, a autorização é pedida assim.
+- [Por quanto tempo guardar o prontuário psicológico?](https://drsig.com.br/blog/por-quanto-tempo-guardar-prontuario-psicologico.html) — E o que fica guardado do que foi combinado, por quanto tempo.

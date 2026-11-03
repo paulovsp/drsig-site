@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-09-autorizacao-para-gravar
 slug: autorizacao-para-gravar-sessao-de-psicoterapia
 categoria: Sigilo
+data_iso: 2026-09-22
 titulo: Preciso de autorização para gravar a sessão de psicoterapia?
 meta_description: Gravar a sessão exige autorização do analisante. O que a autorização precisa dizer, quem assina, quando ela cai e o que fazer com a transcrição.
 palavras: 1000
@@ -79,3 +80,7 @@ Enquanto a confirmação não chega, o botão de gravar fica bloqueado. Não é 
 O resto do sigilo, em uma linha: cada consultório fica isolado no próprio banco de dados, com a regra aplicada pelo banco e não pelo aplicativo, e os provedores de IA não usam o seu material para treinar modelo. Nos textos que vão para análise ou busca, o nome do analisante é substituído por um marcador genérico e a data de nascimento pela idade — você continua lendo o nome real na tela.
 
 **Chamada no fim do artigo:** título "Gravar com autorização, sem papel perdido"; texto "No Dr.Sig o pedido sai por e-mail em um toque, o analisante confirma com documento, e a ficha guarda a resposta com a data. Sem confirmação, o app não grava."
+
+## Leia também
+
+- [Por que a gravação de áudio para sozinha no Android?](https://drsig.com.br/blog/por-que-a-gravacao-de-audio-para-sozinha-no-android.html) — A autorização resolve o combinado com o analisante. O aparelho é outro problema: por que o áudio para sozinho no meio da sessão, e o que ajustar antes da próxima.

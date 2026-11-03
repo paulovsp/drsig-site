@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-10-registro-da-sessao
 slug: o-que-escrever-no-registro-da-sessao-de-psicoterapia
 categoria: Registro e prontuário
+data_iso: 2026-10-15
 titulo: O que escrever no registro de uma sessão de psicoterapia
 meta_description: O registro não é diário nem laudo. O que ele precisa responder, o que é melhor não escrever, quanto escrever e como achar depois.
 palavras: 1207
@@ -96,3 +97,8 @@ Para fechar, o que cabe num cartão ao lado do computador:
 - **Uma vez por mês:** releia os registros de um atendimento do começo. É ali que você descobre o que o seu registro não está dizendo.
 
 Isto não é parecer jurídico nem substitui a supervisão. Para um caso concreto — uma requisição judicial, um pedido de documento, uma dúvida sobre o que pode ser entregue a quem —, quem responde é o seu CRP.
+
+## Leia também
+
+- [Por quanto tempo guardar o prontuário psicológico?](https://drsig.com.br/blog/por-quanto-tempo-guardar-prontuario-psicologico.html) — Escrito o registro, fica a pergunta seguinte: por quanto tempo ele precisa ficar guardado, e o que diz a Resolução CFP 001/2009.
+- [Preciso de autorização para gravar a sessão de psicoterapia?](https://drsig.com.br/blog/autorizacao-para-gravar-sessao-de-psicoterapia.html) — Se em vez de escrever você pretende gravar a sessão, a autorização do analisante vem antes de tudo.

@@ -89,3 +89,8 @@ Este é um exemplo genérico, para você reescrever com os seus números — nã
 - Quando o cancelamento é meu, a sessão não é cobrada e eu ofereço outro horário.
 
 Quatro linhas, enviadas uma vez, no fim da primeira sessão. É a diferença entre uma regra e uma discussão.
+
+## Leia também
+
+- [Como organizar a agenda de um consultório de psicologia](https://drsig.com.br/blog/como-organizar-agenda-consultorio-psicologia.html) — O horário fixo é o que faz a falta ser visível no mesmo dia: como a agenda do consultório se monta.
+- [Recibo de psicoterapia para o Imposto de Renda: o que precisa ter](https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html) — E quando a sessão é cobrada, o recibo tem exigências próprias — é o documento que a analisante leva para a declaração.

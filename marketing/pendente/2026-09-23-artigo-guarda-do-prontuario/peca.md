@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-09-guarda-do-prontuario
 slug: por-quanto-tempo-guardar-prontuario-psicologico
 categoria: Registros
+data_iso: 2026-09-23
 titulo: Por quanto tempo guardar o prontuário psicológico?
 meta_description: Cinco anos, contados do último atendimento. O que entra no prontuário, onde guardar, quando descartar e o que fazer se você parar de atender.
 palavras: 1160
@@ -82,3 +83,8 @@ A guarda continua sendo sua, e isso tem tradução concreta. Em Meu Perfil, **"E
 O sigilo, em uma linha: cada consultório fica isolado no próprio banco de dados, com a regra aplicada pelo banco e não pelo aplicativo — um erro de programação não expõe o material de outra profissional.
 
 **Chamada no fim do artigo:** título "Cinco anos de registro, sem caixa de papelão"; texto "No Dr.Sig cada sessão vira registro com data, na ficha de quem você atende. Exportar meus dados devolve tudo em um arquivo quando você quiser — a guarda é sua."
+
+## Leia também
+
+- [O que escrever no registro de uma sessão de psicoterapia](https://drsig.com.br/blog/o-que-escrever-no-registro-da-sessao-de-psicoterapia.html) — O que o registro precisa ter para que guardar cinco anos faça diferença depois.
+- [Preciso de autorização para gravar a sessão de psicoterapia?](https://drsig.com.br/blog/autorizacao-para-gravar-sessao-de-psicoterapia.html) — Gravação é registro também, e entra na mesma conta de guarda — começando pela autorização de quem foi gravado.

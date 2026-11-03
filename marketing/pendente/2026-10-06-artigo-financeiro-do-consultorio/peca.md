@@ -8,6 +8,7 @@ chamada: Conhecer o Dr.Sig
 link: https://drsig.com.br/?utm_source=blog&utm_campaign=2026-10-financeiro-do-consultorio
 slug: como-organizar-o-financeiro-do-consultorio-de-psicologia
 categoria: Financeiro
+data_iso: 2026-10-06
 titulo: Como organizar o financeiro de um consultório de psicologia
 meta_description: As quatro perguntas que o financeiro do consultório precisa responder, por que a planilha não dá conta delas e um fechamento de mês em meia hora.
 palavras: 1100
@@ -91,3 +92,9 @@ Se você quiser um roteiro para o último dia útil, é este:
 5. Emita os recibos pendentes enquanto o mês ainda está fresco, em vez de em março.
 
 Meia hora, doze vezes por ano. É menos do que uma tarde de reconstituição de extrato em abril — e é a diferença entre saber como vai o consultório e achar que sabe.
+
+## Leia também
+
+- [Como reajustar o valor da sessão de psicoterapia](https://drsig.com.br/blog/como-reajustar-o-valor-da-sessao-de-psicoterapia.html) — Com o mês fechando, o passo seguinte é o preço: quando reajustar, como avisar e o que acontece com as sessões já marcadas.
+- [Posso cobrar a sessão em que o analisante faltou?](https://drsig.com.br/blog/cobrar-sessao-falta-cancelamento-psicoterapia.html) — A sessão que não aconteceu é a linha que mais atrapalha o fechamento do mês.
+- [Recibo de psicoterapia para o Imposto de Renda: o que precisa ter](https://drsig.com.br/blog/recibo-de-psicoterapia-imposto-de-renda.html) — O recibo é a outra ponta da mesma conta, e tem data marcada todo ano.

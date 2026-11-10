@@ -16,7 +16,8 @@ minutos: 6
 estado: pendente
 arte: sem arte (ver imagens.md)
 arquivo: artigo.html (molde blog/_molde.html) — entra em blog/ só depois da aprovação
-fontes: Resolução CFP nº 9, de 18/07/2024 (publicada no DO em 30/07/2024; Art. 9º revoga as Resoluções CFP 11/2018 e 04/2020; Art. 10, vigência 30 dias após a publicação); orientação pública do CRP-24 sobre atendimento on-line, que afirma que a 09/2024 descontinuou o Cadastro e-Psi
+fontes: Resolução CFP nº 9/2024 (Art. 9º revoga as Resoluções CFP 11/2018 e 04/2020; os artigos 2º, 5º, 6º e 7º citados no corpo foram lidos na redação de 16/10/2026 e não foram reconferidos em fonte primária); orientação do próprio CFP em https://transparencia.cfp.org.br/crp12/pergunta-frequente/atendimentopsicologicoonline/ (escrita em 12/05/2025 — "No dia 31/08/24 entrou em vigor a Resolução CFP nº 09/2024", que revoga as resoluções anteriores de atendimento on-line, entre elas a Resolução CFP nº 11, de 11/05/2018, e a Resolução CFP nº 04, de 26/03/2020, e "não é mais necessário realizar o cadastro na plataforma e-psi"); orientação do CRP-24 em https://crp24.org.br/atendimento-on-line/ (o atendimento online "é regulamentado pela" Resolução CFP nº 09/2024, que "descontinuou o Cadastro e-Psi", previsto pela Resolução CFP nº 11/2018)
+reconferencia: 10/11/2026 — a vigência da Resolução CFP 09/2024 e a revogação da norma do e-Psi foram reconferidas em dois domínios oficiais (transparencia.cfp.org.br, do CFP, e crp24.org.br, do Conselho Regional) e se sustentam. O que não foi alcançado — o texto integral da norma em fonte primária (atosnormativos.cfp.org.br não resolve, atosoficiais.com.br/cfp devolve 403, site.cfp.org.br/legislacao devolve 500, in.gov.br não resolve). Por isso a data de vigência no corpo foi ajustada para 31/08/2024, que é a que a fonte do CFP afirma, em lugar de "publicada em 30/07/2024 e em vigor trinta dias depois", que nenhuma fonte alcançada confirma
 ---
 
 # Preciso de cadastro no e-Psi para atender online?
@@ -25,7 +26,7 @@ fontes: Resolução CFP nº 9, de 18/07/2024 (publicada no DO em 30/07/2024; Art
 
 ## A resposta curta
 
-O Cadastro e-Psi era previsto pela **Resolução CFP nº 11/2018**. Essa resolução foi **revogada** pela **Resolução CFP nº 9, de 18 de julho de 2024** (artigo 9º, que revoga também a Resolução CFP nº 04/2020, a norma do período da pandemia). A 09/2024 foi publicada no Diário Oficial em 30/07/2024 e entrou em vigor trinta dias depois.
+O Cadastro e-Psi era previsto pela **Resolução CFP nº 11/2018**. Essa resolução foi **revogada** pela **Resolução CFP nº 9/2024** (artigo 9º, que revoga também a Resolução CFP nº 04/2020, a norma do período da pandemia). A 09/2024 **entrou em vigor em 31/08/2024** — é o que diz a orientação publicada pelo próprio CFP.
 
 A resolução vigente **não menciona o e-Psi** e não cria cadastro específico para atender por meio de tecnologias digitais. Ela ainda vai além num ponto prático: o artigo 6º, §1º, dispensa de inscrição secundária quem atende por essas tecnologias — ou seja, atender alguém que está em outro estado não exige inscrição no CRP daquele estado.
 

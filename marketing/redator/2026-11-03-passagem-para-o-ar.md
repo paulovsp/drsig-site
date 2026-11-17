@@ -8,6 +8,11 @@ novembro) vire um commit, sem decisão nova pelo caminho.
 > desde 03/11: apareceu um bloqueio novo, que vale para os doze e vem
 > antes de tudo (passo 0, logo abaixo), e caiu a trava do artigo de
 > atendimento online (seção "O que trava a subida de um artigo").
+>
+> **Reconferido em 17/11/2026** (redação da semana 10). Nada mudou no
+> material: o passo 0 continua aberto — o certificado segue expirado, hoje
+> há **16 dias** — e os doze continuam sem trava de conteúdo. O que esta
+> semana acrescentou está registrado no próprio passo 0.
 
 ## Passo 0 — o HTTPS de `drsig.com.br` está expirado. Nada sobe antes disso
 
@@ -46,6 +51,38 @@ alguns minutos. **Critério para liberar o passo 1: abrir
 
 Enquanto isso não acontecer, o material deste arquivo continua pronto e
 parado — não há nada a refazer nas peças por causa disto.
+
+### Reconferência de 17/11/2026 — continua expirado, e já são 16 dias
+
+Conferido hoje, por requisição HTTPS aos dois endereços que importam:
+
+- `https://drsig.com.br/` e `https://drsig.com.br/blog/` → **falham os
+  dois**, com `SSL certificate problem: certificate has expired`. A
+  conexão não se estabelece; não há código de resposta, porque o
+  navegador (e o rastreador) desistem antes.
+- `http://drsig.com.br/blog/` → **200**, conteúdo íntegro. Segue sendo só
+  o certificado.
+- `https://app.drsig.com.br/escolher-plano.html` → **200**, certificado
+  sadio. Confirma de novo que é só o domínio do site.
+
+São **16 dias** desde o vencimento (01/11/2026 17:52 GMT) e **a segunda
+semana seguida em que isto é o primeiro item do relatório**. A ação
+continua sendo a mesma, e continua sendo do dono: `drsig-site` → Settings
+→ Pages, reemitir o certificado do domínio. O critério de liberação do
+passo 1 não mudou: abrir `https://drsig.com.br/blog/` e ver a página sem
+aviso.
+
+**Duas coisas que a conferência de hoje acrescenta:**
+
+1. **`robots.txt` e `sitemap.xml` continuam dando 404** em produção
+   (conferidos hoje por `http://`). O passo 4 segue valendo como está, e
+   segue valendo a ordem: depois do passo 0, nunca antes.
+2. **O certificado não é bloqueio do canal de e-mail**, ao contrário do
+   que vale para o blog. Dos quatro e-mails prontos em `pendente/`, só um
+   botão de um deles aponta para `drsig.com.br`; os outros apontam para a
+   ficha da loja ou para `app.drsig.com.br`. Está detalhado em
+   `marketing/redator/2026-11-17-disparo-dos-emails.md`, que é o arquivo
+   equivalente a este para o canal de e-mail.
 
 ## O que já está pronto em cada peça
 
